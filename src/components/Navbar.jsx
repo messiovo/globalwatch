@@ -23,11 +23,11 @@ const Navbar = () => {
         <li>
           <span className='hover:text-slate-300 transition-all duration-300 group'> 
             <div className='items-center ml-12 flex'>Services <AiFillCaretDown className='mt-1.5 ml-1 group-hover:rotate-180'/></div> 
-          <ul className='flex flex-col top-24  bg-slate-600  h-24 overflow-hidden'>
+          <ul className='flex flex-col top-24  bg-slate-600  min-h-full gap-4'>
             <li>
-              <Link to="/"><span>Immigration Services</span></Link>
+              <Link to="/"><span className='m-6'>Immigration Services</span></Link>
             </li> <li>
-              <Link to="/"><span>Immigration Services</span></Link>
+              <Link to="/"><span className='m-6'>Immigration Services</span></Link>
             </li>
           </ul>
           </span>
