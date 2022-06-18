@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.nav{
+  @apply flex gap-8 bg-slate-800 w-full text-white font-semibold p-6;
+}
