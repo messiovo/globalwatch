@@ -1,12 +1,9 @@
 import React from 'react'
 
-
-function Hero() {
+ const Hero = () => {
   return (
-    <div className="bg-[url('../img/pic4.jpeg')]">
-
-    </div>
+    <div>Hero</div>
   )
 }
 
-export default Hero
+export default Hero;
