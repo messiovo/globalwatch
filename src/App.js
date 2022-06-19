@@ -4,7 +4,7 @@ import {Routes, Link, Route, BrowserRouter} from 'react-router-dom/index';
 import { Homepage } from './pages'
 function App() {
   return (
-      <div>
+      <div className='bg-[#fafafa]'>
       <Navbar/>
       <Routes>
     <Route path='/' element={<Homepage />} />

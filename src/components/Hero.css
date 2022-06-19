@@ -1,0 +1,9 @@
+.hero{
+    background-image:
+    url('./img/pic2.jpeg');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    height: 95vh;
+    background-position:top right;
+  
+}
