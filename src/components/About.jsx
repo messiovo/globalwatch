@@ -47,7 +47,7 @@ const About = () => {
             <div>
             <h2 className='text-center font-bold text-5xl pt-8 pb-12'> Countries</h2>
             </div>
-            <div className='flex flex-wrap p-10'>
+            <div className='flex flex-wrap p-10 items-center'>
                 {countryCard}
             </div>
         </div>
