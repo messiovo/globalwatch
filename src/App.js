@@ -1,14 +1,15 @@
 import './styles/index.css';
-import {Switch, Link, Route, BrowserRouter as Router} from 'react-router-dom';
-import {Navbar} from './components';
-
+import { Navbar } from './components';
+import {Routes, Link, Route, BrowserRouter} from 'react-router-dom/index';
+import { Homepage } from './pages'
 function App() {
   return (
-    <Router basename='/'>
       <div>
       <Navbar/>
+      <Routes>
+    <Route path='/' element={<Homepage />} />
+  </Routes>
       </div>
-    </Router>
   );
 }
 
