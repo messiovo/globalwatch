@@ -2,5 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 .nav{
-  @apply flex gap-8 bg-slate-800 w-full text-white font-semibold p-6;
+  @apply flex gap-8 bg-[#252F46] w-full text-white font-semibold p-6;
 }
