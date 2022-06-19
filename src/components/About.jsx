@@ -15,11 +15,11 @@ const About = () => {
         )
     })
     const countryCard = Countries.map(country =>{
+
         return(
             <CountriesCard
             key={country.id}
-            bgImg = {country.img}
-            name={country.title}
+            country= {country}
             />
         )
     })
@@ -47,7 +47,7 @@ const About = () => {
             <div>
             <h2 className='text-center font-bold text-5xl pt-8 pb-12'> Countries</h2>
             </div>
-            <div>
+            <div className='flex flex-wrap p-10'>
                 {countryCard}
             </div>
         </div>
