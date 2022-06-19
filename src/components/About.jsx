@@ -1,7 +1,9 @@
 import React from 'react';
 import './Hero.css';
 import StepCard from './StepCard';
+import Countries from './Countries';
 import data from './data';
+import CountriesCard from './CountriesCard';
 
 const About = () => {
     const stepCard = data.map(item => {
@@ -10,6 +12,15 @@ const About = () => {
         key={item.id}
         item={item}
         />
+        )
+    })
+    const countryCard = Countries.map(country =>{
+        return(
+            <CountriesCard
+            key={country.id}
+            bgImg = {country.img}
+            name={country.title}
+            />
         )
     })
   return (
@@ -28,10 +39,19 @@ const About = () => {
         </div>
         <div className='bg-[#e2e2e2] p-10 pb-20 rounded-lg'>
             <h2 className='text-center font-bold text-5xl pt-8 pb-12'>Our Four Step Process</h2>
-        <div className='flex about-card'>
+        <div className='flex flex-col about-card lg:flex-row'>
         {stepCard}
         </div>
         </div>
+        <div>
+            <div>
+            <h2 className='text-center font-bold text-5xl pt-8 pb-12'> Countries</h2>
+            </div>
+            <div>
+                {countryCard}
+            </div>
+        </div>
+
     </div>
   )
 }

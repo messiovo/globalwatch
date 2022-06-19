@@ -24,4 +24,6 @@ const data= [
         content:"Search for school of your chioce, apply online via email, phone, call or in person at our office"
     }
 ]
+
+
 export default data;
