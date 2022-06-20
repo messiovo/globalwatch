@@ -5,7 +5,9 @@ import './Hero.css';
 const Services = () => {
   return (
     <div className='p-10 pb-20 rounded-lg m-10'>
-      <div><h2 className='text-center font-bold text-5xl pt-8 pb-12'>Other Services</h2></div>
+      <div>
+        <h2 className='text-center font-bold text-5xl pt-8 pb-12'>Other Services</h2>
+      </div>
       <div className='px-14'>
         <h3 className='text-3xl font-semibold'>Immigration Services</h3>
         <p className='text-xl py-8 leading-normal'>We offer advisory and processing services for those seeking travel to The UK and European countries.
@@ -121,11 +123,14 @@ Our prices are very competitive. We make sure that you get expert advice at affo
           </tr>
         
         </table>
-      </div> 
-
+      </div>       
+  </div>
+      <div className='py-14'>
+      <h3 className='text-3xl font-semibold'>Multimedia Training and Services </h3>
       </div>
 
-    </div>
+
+</div>
     
   )
 }
