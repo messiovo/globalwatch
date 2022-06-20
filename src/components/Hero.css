@@ -21,6 +21,27 @@
     background-color: #e2e2e2;
     font-weight: 600;
 }
+.table{
+    width: auto;
+    border-collapse: collapse;
+    margin: auto;
+    color: #fff;
+}
+.table td, .table th{
+    padding: 1rem;
+}
+.table tr:nth-child(even){
+    background-color: #C2956D;
+}
+
+.table tr:nth-child(odd){
+    background-color:#252F46;
+}
+.table tr:hover{
+    background-color: #e2e2e2;
+    color: #000;
+}
+
 
 
 @media only screen and (max-width: 56.25em){
