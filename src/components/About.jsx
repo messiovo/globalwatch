@@ -66,7 +66,7 @@ const About = () => {
         )
     })
   return (
-    <div className='p-10 '>
+    <div className='p-10 bg-[#e2e2e2]'>
         <div className='w-full flex flex-col p-6 gap-8'>
 
             <span className="flex flex-col gap-2 items-center">
@@ -80,7 +80,7 @@ const About = () => {
                 we make sure you get value for your money.</p>
             </div>
         </div>
-        <div className='bg-[#e2e2e2] p-10 pb-20 rounded-lg'>
+        <div className=' p-10 pb-20 rounded-lg'>
             <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl mb-4'>Our Four Step Process</h2>
         <div className='flex flex-col lg:flex-row'>
         { data.map(item =>(
@@ -94,11 +94,15 @@ const About = () => {
         </div>
         <div>
             <div>
-            <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl mt-8'>Our Countries</h2>
+                <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl mt-8'>Our Countries</h2>
             </div>
             <div className='px-10 pt-4 flex flex-col lg:flex-row'>
                 {countryCard}
             </div>
+      <span className="flex flex-col gap-2 items-center">
+      <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl mb-4'>Testimonial</h2>
+           
+      </span>
         </div>
 
     </div>
