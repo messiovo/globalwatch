@@ -1,19 +1,36 @@
 import React from 'react';
 import './Hero.css';
 import StepCard from './StepCard';
-import Countries from './Countries';
 import data from './data';
 import CountriesCard from './CountriesCard';
-
+const Countries = [
+    {
+        id:1,
+        img: require("./img/uk.jpeg"),
+        title: "United Kingdom"
+    },  
+    {
+        id:2,
+        img: require("./img/germany.jpeg"),
+        title: "Germany"
+    },
+    {
+        id:3,
+        img: require("./img/cyprus.jpeg"),
+        title: "Cyprus"
+    },
+    {
+        id:4,
+        img: require("./img/russia.jpeg"),
+        title: "Russia"
+    },
+    {
+        id:5,
+        img: require("./img/poland.jpeg"),
+        title: "Poland"
+    }    
+]
 const About = () => {
-    const stepCard = data.map(item => {
-        return(
-        <StepCard 
-        key={item.id}
-        item={item}
-        />
-        )
-    })
     const countryCard = Countries.map(country =>{
 
         return(
@@ -40,7 +57,13 @@ const About = () => {
         <div className='bg-[#e2e2e2] p-10 pb-20 rounded-lg'>
             <h2 className='text-center font-bold text-5xl pt-8 pb-12'>Our Four Step Process</h2>
         <div className='flex flex-col about-card lg:flex-row'>
-        {stepCard}
+        { data.map(item =>(
+        <StepCard 
+        key={item.id}
+        item={item}
+        />
+        )
+    )}
         </div>
         </div>
         <div>
