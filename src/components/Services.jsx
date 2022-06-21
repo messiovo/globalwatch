@@ -60,7 +60,7 @@ const Services = () => {
     <div className='p-10  rounded-lg m-10'>
        <span className="flex flex-col gap-2 items-center">
                 <h2 className="text-center font-bold text-2xl lg:text-4xl uppercase">services</h2>
-                <div className="w-40 h-2 bg-black rounded-full lg:w-44"></div>
+                <div className="w-40 h-2 bg-black rounded-full lg:w-44 down"></div>
             </span>
       <div className='px-14 py-8'>
         <span className="flex flex-col gap-2 ">

@@ -9,18 +9,13 @@
 .down{
     animation: moveInDown 1s ease-out 0.7s;
     animation-fill-mode: backwards;
-    position: relative;
-}
-.down:hover{
-    transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem rgba(255,255,255, 0.2);
-    
-}
-.card1{
+} 
+.card2{
     transform: transform 0.4s;
+    transition: all .2s;
 }
-.card1:hover{
-    transform: scale(1.05);
+.card2:hover{
+    transform:translateY(-0.5rem) scale(1.05);
     box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
 }
 .card1:nth-child(even){

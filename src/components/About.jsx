@@ -71,7 +71,7 @@ const About = () => {
 
             <span className="flex flex-col gap-2 items-center">
                 <h2 className="text-center font-bold text-2xl lg:text-4xl uppercase">About Us</h2>
-                <div className="w-40 h-2 bg-black rounded-full lg:w-44"></div>
+                <div className="w-40 h-2 bg-black rounded-full lg:w-44 down"></div>
             </span>
             <div className='text-center lg:text-lg font-semibold text-base'>
                 <p>We are a team of hignly experienced professionals 
