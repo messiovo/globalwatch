@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
    return(
      <div className="flex flex-col  w-full justify-between lg:flex-row items-center bg-[url('./img/pic2.jpeg')] bg-[#252F46]/75  bg-no-repeat bg-blend-soft-light bg-cover">
        <div className=' text-white  px-20 pt-20  pb-10 hero-content w-full'>
-         <h2 className='text-5xl font-bold leading-normal'>Study Abroad Simplified!</h2>
-         <p className='py-6 leading-normal'>There is a world out there full of possibilities.<br/>
+         <h2 className='text-5xl font-bold'>Study Abroad Simplified!</h2>
+         <p className='py-6 text-lg font-medium'>There is a world out there full of possibilities.
          Our mission is to help you accomplish your dreams.</p>
          <Link to='/'>
           <button className='flex text-lg font-semibold rounded-full bg-[#C2956D] p-4 gap-2'>
