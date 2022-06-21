@@ -69,7 +69,7 @@ const About = () => {
     <div className='p-10 '>
         <div className='w-full flex flex-col p-6'>
 
-            <span className="flex flex-col gap-4 items-center">
+            <span className="flex flex-col gap-2 items-center">
                 <h2 className="text-center font-bold text-xl lg:text-3xl pb-8">About Us</h2>
                 <div className="w-12 h-2 bg-black rounded-full"></div>
             </span>
