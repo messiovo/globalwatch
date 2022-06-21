@@ -2,6 +2,22 @@
 .hero-img{
     width: 50%;
 }
+
+.heading-animate{
+    animation: moveInRight 1s ease-out 0.2s;
+ }
+.text-animate{
+   animation: moveInLeft 1s ease-out 0.2s;
+}
+.btn-hero{
+    transition: all 0.2s;
+    animation: moveInDown 1s ease-out 0.7s;
+    animation-fill-mode: backwards;
+  position: relative;
+}
+.btn-hero:hover{
+    transform: scale(.2s);
+}
 .about-card{
     display: flex;
     overflow-x: auto;
@@ -46,8 +62,18 @@
     background-color: #e2e2e2;
     color: #000;
 }
-
-
+.div-trans{
+    transition: width .2s;
+}
+.div-trans{
+    animation: moveInLeft 1s ease-in-out 0.2s;
+}
+.media-card{
+    transition: transform 0.3s;
+}
+.media-card:hover{
+    transform: scale(1.1);
+}
 
 @media only screen and (max-width: 56.25em){
     .hero-content, .hero-img{
@@ -60,4 +86,41 @@
         width: 15rem;
     }
 }
-
+@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translate(-100px);
+    }
+    80% {
+      transform: translate(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0px);
+    }
+  }
+  
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translate(100px);
+    }
+    80% {
+      transform: translate(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0px);
+    }
+  }
+  @keyframes moveInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  
