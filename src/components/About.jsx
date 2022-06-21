@@ -5,11 +5,12 @@ import Countries from './Countries';
 import data from './data';
 import CountriesCard from './CountriesCard';
 
+
 const About = () => {
     const stepCard = data.map(item => {
         return(
         <StepCard 
-        key={item.id}
+        key={item.no}
         item={item}
         />
         )
@@ -45,9 +46,9 @@ const About = () => {
         </div>
         <div>
             <div>
-            <h2 className='text-center font-bold text-5xl pt-8 pb-12'> Countries</h2>
+            <h2 className='text-center font-bold text-5xl pt-8 pb-2'> Countries</h2>
             </div>
-            <div className='flex flex-wrap p-10 items-center'>
+            <div className='flex flex-wrap px-10 items-center'>
                 {countryCard}
             </div>
         </div>
