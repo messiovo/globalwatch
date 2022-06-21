@@ -1,4 +1,28 @@
-
+.left{
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+.right{
+    animation: moveInRight 1s ease-out;
+}
+.down{
+    animation: moveInDown 1s ease-out 0.7s;
+    animation-fill-mode: backwards;
+    position: relative;
+}
+.down:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(255,255,255, 0.2);
+    
+}
+.card1{
+    transform: transform 0.4s;
+}
+.card1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+}
 .card1:nth-child(even){
     background-color: #C2956D;
 }
@@ -24,5 +48,58 @@
 .table tr:hover{
     background-color: #e2e2e2;
     color: #000;
+}
+.div-animate{
+    transition: width 0.2s;
+}
+.div-animate:hover{
+    width:8rem ;
+}
+
+@keyframes moveInRight{
+    0% {
+        opacity: 0;
+        transform: translate(100px);
+      }
+      80% {
+        transform: translate(-10px);
+      }
+      100% {
+        opacity: 1;
+        transform: translate(0px);
+      }
+}
+@keyframes moveInDown {
+    0%{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }    
+}
+@keyframes moveInLeft {
+    0%{
+        opacity: 0;
+        transform:translate(-100px);
+    }
+    80%{
+        transform: translate(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+@keyframes moveInUp {
+    0%{
+        opacity: 0;
+        transform: translate(-40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
 }
 

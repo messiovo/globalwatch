@@ -65,7 +65,7 @@ const Services = () => {
       <div className='px-14 py-8'>
         <span className="flex flex-col gap-2 ">
       <h2 className='text-[#252F46] font-bold text-2xl lg:text-3xl'>Immigration Services</h2>
-        <div className="w-20 h-2 bg-[#C2956D] rounded-full"></div>
+        <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate"></div>
         </span>
         <p className='text-xl py-8 leading-normal'>We offer advisory and processing services for those seeking travel to The UK and European countries.
           Our immigration consultants thus have to adhere to very strict professional rules. These rules ensure that we are fit, competent and up to date with all the UK immigration rules and regulations.
@@ -182,7 +182,7 @@ Our prices are very competitive. We make sure that you get expert advice at affo
       <div className='px-14 pt-12'>
         <span className="flex flex-col gap-2 ">
           <h2 className='text-[#252F46] font-bold text-2xl lg:text-3xl'>Multimedia Training & Services</h2>
-          <div className="w-20 h-2 bg-[#C2956D] rounded-full"></div>
+          <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate"></div>
         </span>
     </div>
     <div className='px-10 flex flex-wrap flex-col lg:flex-row'>
