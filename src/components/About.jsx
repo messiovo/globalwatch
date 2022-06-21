@@ -31,7 +31,7 @@ const data = [
 const Countries = [
     {
         id:1,
-        img: require("./img/uk.jpeg"),
+        img: require("./img/uk.jpg"),
         title: "United Kingdom"
     },  
     {
@@ -46,12 +46,12 @@ const Countries = [
     },
     {
         id:4,
-        img: require("./img/russia.jpeg"),
+        img: require("./img/russia.jpg"),
         title: "Russia"
     },
     {
         id:5,
-        img: require("./img/poland.jpeg"),
+        img: require("./img/poland.jpg"),
         title: "Poland"
     }    
 ]
