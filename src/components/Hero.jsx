@@ -6,8 +6,8 @@ import {AiOutlineArrowRight} from 'react-icons/ai';
 
  const Hero =() =>{
    return(
-     <div className="flex flex-col  w-full justify-between lg:flex-row items-center bg-[url('./img/pic2.jpeg')] bg-[#252F46]  bg-no-repeat bg-blend-soft-light">
-       <div className=' text-[#252F46]   px-20 pt-20  pb-10 hero-content'>
+     <div className="flex flex-col  w-full justify-between lg:flex-row items-center bg-[url('./img/pic2.jpeg')] bg-[#252F46]/75  bg-no-repeat bg-blend-soft-light bg-cover">
+       <div className=' text-white  px-20 pt-20  pb-10 hero-content'>
          <h2 className='text-5xl font-bold leading-normal'>Study <br/> Abroad <br/> Simplified!</h2>
          <p className='py-6 leading-normal'>There is a world out there full of possibilities.<br/>
          Our mission is to help you accomplish your dreams.</p>
