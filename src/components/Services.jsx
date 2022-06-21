@@ -16,7 +16,7 @@ const mediaCard = mediaData.map(media =>{
 })
 
   return (
-    <div className='p-10 pb-20 rounded-lg m-10'>
+    <div className='p-10 pb-10 rounded-lg m-10'>
       <div>
         <h2 className='text-center font-bold text-5xl pt-8 pb-12'>Other Services</h2>
       </div>
@@ -138,7 +138,7 @@ Our prices are very competitive. We make sure that you get expert advice at affo
         </table>
       </div>       
   </div>
-      <div className='py-14'>
+      <div className='pt-14 '>
         <h3 className='text-3xl font-semibold pl-4'>Multimedia Training and Services </h3>
         <div className='w-12 h-1 bg-[#C2956D] rounded-lg ml-4'></div>
         <div className='flex flex-wrap px-8 py-2 m-auto my-2 text-white'>
