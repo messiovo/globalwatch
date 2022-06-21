@@ -1,5 +1,5 @@
 import React from 'react'
-import './Hero.css';
+
 // import { LinearProgress } from 'react-native-elements';
 
 const StepCard = ({ item } ) => {

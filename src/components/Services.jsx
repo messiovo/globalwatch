@@ -1,8 +1,61 @@
-import React from 'react'
+import React from 'react';
 import './Hero.css';
+import MediaCard from './MediaCard';
 
+const media = [
+  {
+    id:6,
+    img: require("./img/graphics.jpg"),
+    heading: "Graphic Design",
+    text:"This involves crafting visual images intended to project information to individuals for a specific purpose.This involves crafting visual images intended to project information to individuals for a specific purpose."
+  },
+{
+    id:7,
+    img: require("./img/graphics.jpg"),
+    heading: "Graphic Design",
+    text:"This involves crafting visual images intended to project information to individuals for a specific purpose.This involves crafting visual images intended to project information to individuals for a specific purpose."
+  },
+{
+    id:8,
+    img: require("./img/graphics.jpg"),
+    heading: "Graphic Design",
+    text:"This involves crafting visual images intended to project information to individuals for a specific purpose.This involves crafting visual images intended to project information to individuals for a specific purpose."
+  },
+{
+    id:9,
+    img: require("./img/graphics.jpg"),
+    heading: "Graphic Design",
+    text:"This involves crafting visual images intended to project information to individuals for a specific purpose.This involves crafting visual images intended to project information to individuals for a specific purpose."
+  },
+{
+    id:10,
+    img: require("./img/graphics.jpg"),
+    heading: "Graphic Design",
+    text:"This involves crafting visual images intended to project information to individuals for a specific purpose.This involves crafting visual images intended to project information to individuals for a specific purpose."
+  },
+{
+    id:11,
+    img: require("./img/graphics.jpg"),
+    heading: "Graphic Design",
+    text:"This involves crafting visual images intended to project information to individuals for a specific purpose.This involves crafting visual images intended to project information to individuals for a specific purpose."
+  },
+{
+    id:12,
+    img: require("./img/graphics.jpg"),
+    heading: "Graphic Design",
+    text:"This involves crafting visual images intended to project information to individuals for a specific purpose.This involves crafting visual images intended to project information to individuals for a specific purpose."
+  },
+{
+    id:13,
+    img: require("./img/graphics.jpg"),
+    heading: "Graphic Design",
+    text:"This involves crafting visual images intended to project information to individuals for a specific purpose.This involves crafting visual images intended to project information to individuals for a specific purpose."
+  },
+
+]
 
 const Services = () => {
+
   return (
     <div className='p-10 pb-20 rounded-lg m-10'>
        <span className="flex flex-col gap-2 items-center">
@@ -26,8 +79,8 @@ Our prices are very competitive. We make sure that you get expert advice at affo
         </p>
       </div>
       <div>
-        
-<table className='table'>
+        <h2 className='text-center font-bold text-2xl pb-1'>UK/European Visa Categories</h2>    
+<table className=' table'>
   <tr>
     <th>Visa Type</th>
     <th>Purpose</th>
@@ -128,12 +181,20 @@ Our prices are very competitive. We make sure that you get expert advice at affo
 </div>
     <div className='px-14 pt-8'>
       <span className="flex flex-col gap-2 ">
-      <h2 className='text-[#252F46] font-bold text-2xl lg:text-3xl'>Multimedia Services</h2>
+      <h2 className='text-[#252F46] font-bold text-2xl lg:text-3xl'>Multimedia Training & Services</h2>
         <div className="w-20 h-2 bg-[#C2956D] rounded-full"></div>
         </span>
     </div>
-  
-    </div>
+    <div className='px-10 flex flex-wrap flex-col lg:flex-row'>
+    {media.map(mediaItem => (
+      <MediaCard
+      key={mediaItem.id}
+      mediaItem={mediaItem}
+      />
+    )
+    )} 
+    </div> 
+  </div>
   )
 }
 
