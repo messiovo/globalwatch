@@ -6,7 +6,7 @@ import {AiOutlineArrowRight} from 'react-icons/ai';
 
  const Hero =() =>{
    return(
-     <div className="flex flex-col bg-[#252F46]/30 w-full justify-between lg:flex-row items-center bg-[url('./img/pic2.jpeg')]">
+     <div className="flex flex-col  w-full justify-between lg:flex-row items-center bg-[url('./img/pic2.jpeg')] bg-[#252F46]  bg-no-repeat bg-blend-soft-light">
        <div className=' text-[#252F46]   px-20 pt-20  pb-10 hero-content'>
          <h2 className='text-5xl font-bold leading-normal'>Study <br/> Abroad <br/> Simplified!</h2>
          <p className='py-6 leading-normal'>There is a world out there full of possibilities.<br/>
@@ -17,7 +17,6 @@ import {AiOutlineArrowRight} from 'react-icons/ai';
           </button>
          </Link>
        </div>
-       <div className='hero-img'><img src={heropic} alt="" className='rounded 3xl img'/></div>
      </div>
    )
  }
