@@ -40,7 +40,7 @@
 }
 
 .table tbody:nth-child(odd){
-    background-color:#252F46;
+    background-color: #252F46;
 }
 .table tbody:hover{
     background-color: #e2e2e2;
