@@ -40,7 +40,7 @@ const About = () => {
         </div>
         <div className='bg-[#e2e2e2] p-10 pb-20 rounded-lg'>
             <h2 className='text-center font-bold text-5xl pt-8 pb-12'>Our Four Step Process</h2>
-        <div className='flex flex-col about-card lg:flex-row'>
+        <div className='flex flex-col about-card lg:flex-row '>
         {stepCard}
         </div>
         </div>

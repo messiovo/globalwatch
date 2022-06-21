@@ -16,7 +16,9 @@
   position: relative;
 }
 .btn-hero:hover{
-    transform: scale(.2s);
+    color: #252F46;
+    box-shadow: 0 1rem 1rem rgba(255,255,255, 0.2);
+    transform:translateY(-2px);
 }
 .about-card{
     display: flex;
@@ -68,10 +70,10 @@
 .div-trans{
     animation: moveInLeft 1s ease-in-out 0.2s;
 }
-.media-card{
+.media-card, .card1{
     transition: transform 0.3s;
 }
-.media-card:hover{
+.media-card:hover, .card1:hover{
     transform: scale(1.1);
 }
 
