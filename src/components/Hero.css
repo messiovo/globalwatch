@@ -2,24 +2,6 @@
 .hero-img{
     width: 50%;
 }
-
-.heading-animate{
-    animation: moveInRight 1s ease-out 0.2s;
- }
-.text-animate{
-   animation: moveInLeft 1s ease-out 0.2s;
-}
-.btn-hero{
-    transition: all 0.2s;
-    animation: moveInDown 1s ease-out 0.7s;
-    animation-fill-mode: backwards;
-  position: relative;
-}
-.btn-hero:hover{
-    color: #252F46;
-    box-shadow: 0 1rem 1rem rgba(255,255,255, 0.2);
-    transform:translateY(-2px);
-}
 .about-card{
     display: flex;
     overflow-x: auto;
@@ -40,42 +22,27 @@
     font-weight: 600;
 }
 .table{
-    width: 70%;
+    width: auto;
     border-collapse: collapse;
     margin: auto;
     color: #fff;
 }
 .table td, .table th{
-    padding: 1rem 2rem;
-    font-weight: 500;
+    padding: 1rem;
 }
-.table th{
-    font-size: 1.2rem;
-    text-align: left;
-}
-.table tbody:nth-child(even){
+.table tr:nth-child(even){
     background-color: #C2956D;
 }
 
-.table tbody:nth-child(odd){
-    background-color: #252F46;
+.table tr:nth-child(odd){
+    background-color:#252F46;
 }
-.table tbody:hover{
+.table tr:hover{
     background-color: #e2e2e2;
     color: #000;
 }
-.div-trans{
-    transition: width .2s;
-}
-.div-trans{
-    animation: moveInLeft 1s ease-in-out 0.2s;
-}
-.media-card, .card1{
-    transition: transform 0.3s;
-}
-.media-card:hover, .card1:hover{
-    transform: scale(1.1);
-}
+
+
 
 @media only screen and (max-width: 56.25em){
     .hero-content, .hero-img{
@@ -84,45 +51,4 @@
     .btn-hero{
         font-size: 1.2rem;
     }
-    .card1{
-        width: 15rem;
-    }
 }
-@keyframes moveInLeft {
-    0% {
-      opacity: 0;
-      transform: translate(-100px);
-    }
-    80% {
-      transform: translate(10px);
-    }
-    100% {
-      opacity: 1;
-      transform: translate(0px);
-    }
-  }
-  
-  @keyframes moveInRight {
-    0% {
-      opacity: 0;
-      transform: translate(100px);
-    }
-    80% {
-      transform: translate(-10px);
-    }
-    100% {
-      opacity: 1;
-      transform: translate(0px);
-    }
-  }
-  @keyframes moveInDown {
-    0% {
-      opacity: 0;
-      transform: translateY(40px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0px);
-    }
-  }
-  
