@@ -5,10 +5,15 @@ import './Hero.css';
 const Services = () => {
   return (
     <div className='p-10 pb-20 rounded-lg m-10'>
-      <div><h2 className='text-center font-bold text-5xl pt-8 pb-12'>Other Services</h2></div>
-      <div className='px-14'>
-        <h3 className='text-3xl font-semibold'>Immigration Services</h3>
-        <div className="w-12 h-2 bg-[#C2956D] rounded-full"></div>
+       <span className="flex flex-col gap-2 items-center">
+                <h2 className="text-center font-bold text-2xl lg:text-4xl uppercase">services</h2>
+                <div className="w-40 h-2 bg-black rounded-full lg:w-44"></div>
+            </span>
+      <div className='px-14 pt-8'>
+        <span className="flex flex-col gap-2 ">
+      <h2 className='text-[#252F46] font-bold text-2xl lg:text-3xl'>Immigration Services</h2>
+        <div className="w-20 h-2 bg-[#C2956D] rounded-full"></div>
+        </span>
         <p className='text-xl py-8 leading-normal'>We offer advisory and processing services for those seeking travel to The UK and European countries.
           Our immigration consultants thus have to adhere to very strict professional rules. These rules ensure that we are fit, competent and up to date with all the UK immigration rules and regulations.
           <span className='block py-3'>Our team of consultants has exceptional qualifications and many years of experience in Immigration law. 
@@ -118,13 +123,17 @@ Our prices are very competitive. We make sure that you get expert advice at affo
  <tr>
     <td>Youth MobilityVisa</td>
     <td>2 year work permit for young people aged 18-20 from participating territories</td>
-  </tr>
- 
+  </tr> 
 </table>
-      </div>
-
+</div>
+    <div className='px-14 pt-8'>
+      <span className="flex flex-col gap-2 ">
+      <h2 className='text-[#252F46] font-bold text-2xl lg:text-3xl'>Multimedia Services</h2>
+        <div className="w-20 h-2 bg-[#C2956D] rounded-full"></div>
+        </span>
     </div>
-    
+  
+    </div>
   )
 }
 
