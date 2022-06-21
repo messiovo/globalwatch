@@ -1,25 +1,9 @@
-.hero-content, 
-.hero-img{
-    width: 50%;
-}
-.about-card{
-    display: flex;
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    padding: 0 3rem;
-}
+
 .card1:nth-child(even){
     background-color: #C2956D;
 }
 .card1:nth-child(odd){
     background-color: #252F46;
-}
-.num{
-    padding: 0.5rem 1rem;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-    background-color: #e2e2e2;
-    font-weight: 600;
 }
 .table{
     width: auto;

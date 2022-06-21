@@ -70,8 +70,8 @@ const About = () => {
         <div className='w-full flex flex-col p-6 gap-8'>
 
             <span className="flex flex-col gap-2 items-center">
-                <h2 className="text-center font-bold text-xl lg:text-3xl">About Us</h2>
-                <div className="w-36 h-2 bg-black rounded-full"></div>
+                <h2 className="text-center font-bold text-2xl lg:text-4xl">About Us</h2>
+                <div className="w-36 h-2 bg-black rounded-full lg:w-40"></div>
             </span>
             <div className='text-center lg:text-lg font-semibold text-base'>
                 <p>We are a team of hignly experienced professionals 
@@ -81,8 +81,8 @@ const About = () => {
             </div>
         </div>
         <div className='bg-[#e2e2e2] p-10 pb-20 rounded-lg'>
-            <h2 className='text-center font-bold text-5xl pt-8 pb-12'>Our Four Step Process</h2>
-        <div className='flex flex-col about-card lg:flex-row'>
+            <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl mb-4'>Our Four Step Process</h2>
+        <div className='flex flex-col lg:flex-row'>
         { data.map(item =>(
         <StepCard 
         key={item.id}
@@ -94,9 +94,9 @@ const About = () => {
         </div>
         <div>
             <div>
-            <h2 className='text-center font-bold text-5xl pt-8 pb-12'> Countries</h2>
+            <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl mt-8'> Countries</h2>
             </div>
-            <div className='flex flex-wrap p-10 items-center'>
+            <div className='flex flex-wrap items-center'>
                 {countryCard}
             </div>
         </div>

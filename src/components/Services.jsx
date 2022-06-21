@@ -8,6 +8,7 @@ const Services = () => {
       <div><h2 className='text-center font-bold text-5xl pt-8 pb-12'>Other Services</h2></div>
       <div className='px-14'>
         <h3 className='text-3xl font-semibold'>Immigration Services</h3>
+        <div className="w-12 h-2 bg-[#C2956D] rounded-full"></div>
         <p className='text-xl py-8 leading-normal'>We offer advisory and processing services for those seeking travel to The UK and European countries.
           Our immigration consultants thus have to adhere to very strict professional rules. These rules ensure that we are fit, competent and up to date with all the UK immigration rules and regulations.
           <span className='block py-3'>Our team of consultants has exceptional qualifications and many years of experience in Immigration law. 

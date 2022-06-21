@@ -5,10 +5,10 @@ import './Hero.css';
 const StepCard = ({ item } ) => {
   const { no,title,content} = item;
   return (
-    <div className="flex flex-col w-80  px-8 mx-4 py-8 rounded-xl items-center card1">
-        <p className='num'>{no}</p>
+    <div className=" w-80  px-8 m-4 py-8 rounded-xl text-center card1">
+        <span className='bg-[#e2e2e2] w-10 h-8 rounded-full block m-auto pt-1 mb-4 font-bold'>{no}</span>
         <h2 className=' font-bold pb-2 text-white'>{title}</h2>
-        <p className='text-white text-center'>{content}</p>
+        <p className='text-white '>{content}</p>
     </div>
   )
 }
