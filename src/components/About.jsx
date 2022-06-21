@@ -70,12 +70,12 @@ const About = () => {
         <div className='p-10 '>
 
             <div >
-                <h2 className="text-center font-bold text-5xl pb-8">About Us</h2>
+                <h2 className="text-center font-bold text-xl lg:text-3xl pb-8">About Us</h2>
             </div>
-            <div className='text-center text-2xl'>
-                <p>We are a team of hignly experienced professionals <br/>
-                that makes the whole process seamless and achievable<br/>
-                Whether is study abroad or any of our other services,<br/>
+            <div className='text-center lg:text-lg font-semibold text-base'>
+                <p>We are a team of hignly experienced professionals 
+                that makes the whole process seamless and achievable
+                Whether is study abroad or any of our other services,
                 we make sure you get value for your money.</p>
             </div>
         </div>
