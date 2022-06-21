@@ -67,11 +67,12 @@ const About = () => {
     })
   return (
     <div className='p-10 '>
-        <div className='p-10 '>
+        <div className='w-full flex flex-col p-6'>
 
-            <div >
+            <span className="flex flex-col gap-4 items-center">
                 <h2 className="text-center font-bold text-xl lg:text-3xl pb-8">About Us</h2>
-            </div>
+                <div className="w-12 h-2 bg-black rounded-full"></div>
+            </span>
             <div className='text-center lg:text-lg font-semibold text-base'>
                 <p>We are a team of hignly experienced professionals 
                 that makes the whole process seamless and achievable
