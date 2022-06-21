@@ -94,12 +94,12 @@ const About = () => {
         </div>
         <div>
             <div>
-                <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl mt-8'>Our Countries</h2>
+                <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl '>Our Countries</h2>
             </div>
             <div className='px-10 pt-4 flex flex-col lg:flex-row'>
                 {countryCard}
             </div>
-      <span className="flex flex-col gap-2 items-center">
+      <span className="flex flex-col gap-2 items-center pt-14">
       <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl mb-4'>Testimonial</h2>
            
       </span>
