@@ -102,7 +102,7 @@ const About = () => {
             <div>
                 <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl '>Our Countries</h2>
             </div>
-            <div className='px-10 pt-4 flex flex-col lg:flex-row'>
+            <div className='px-20 pt-4 flex justify-around flex-wrap flex-col lg:flex-row'>
                 {countryCard}
             </div>
       <span className="flex flex-col gap-2 items-center pt-14">

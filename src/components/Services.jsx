@@ -123,7 +123,7 @@ Our prices are very competitive. We make sure that you get expert advice at affo
           </tr>
           <tr>
             <td>Investor Visa</td>
-            <td>nternational investors with at least £2 million to invest in UK businesses</td>
+            <td>International investors with at least £2 million to invest in UK businesses</td>
           </tr>
           <tr>
             <td>Ministry of Religion Visa</td>
