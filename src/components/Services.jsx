@@ -4,49 +4,49 @@ import MediaCard from './MediaCard';
 
 const media = [
   {
-    id:6,
+    id:7,
     img: require("./img/graphics.jpg"),
     heading: "Graphic Design",
     text:"This involves crafting visual images intended to project information to individuals for a specific purpose.This involves crafting visual images intended to project information to individuals for a specific purpose."
   },
 {
-    id:7,
+    id:8,
     img: require("./img/video.jpg"),
     heading: "Video Editing",
     text:"Video editing is the process of manipulating video by rearranging different shots and scenes in order to create a whole new output."
   },
 {
-    id:8,
+    id:9,
     img: require("./img/3d.jpg"),
     heading: "2D/3D Animation",
     text:"Images in 2D appear flat and span X and Y axis (horizontal and vertical movement. However, 3D animation adds a critical third axis, the z-axis, which creates depth, making the images have a 360-degree appearance."
   },
 {
-    id:9,
+    id:10,
     img: require("./img/motion.jpg"),
     heading: "Motion Graphic",
     text:"Create illusion of motion and rotation with manipulating animation and video footage in your multimedia projects. Combination with audio to create an immersive user experience."
   },
 {
-    id:10,
+    id:11,
     img: require("./img/ux.jpg"),
     heading: "UX/UI Design",
     text:"This involves crafting visual images intended to project information to individuals for a specific purpose.This involves crafting visual images intended to project information to individuals for a specific purpose."
   },
 {
-    id:11,
+    id:12,
     img: require("./img/prototype.jpg"),
     heading: "Prototyping",
     text:"Prototyping is defined as the process of developing a working replication of a product or system that has to be engineered. It offers a small-scale facsimile of the end product and is used for obtaining customer feedback."
   },
 {
-    id:12,
+    id:13,
     img: require("./img/seo.jpg"),
     heading: "Digital marketing & SEO",
     text:"In the world of digital marketing,Search Engine Optimization is marketing strategy that plays an important role in helping you increase your reach to potential customers."
   },
 {
-    id:13,
+    id:14,
     img: require("./img/visual.jpg"),
     heading: "Visual Effect (VFX)",
     text:"This refers to imagery created, manipulated, or enhanced for any film, or other moving media that doesn't take place during the initial video shooting."

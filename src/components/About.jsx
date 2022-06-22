@@ -53,7 +53,13 @@ const Countries = [
         id:5,
         img: require("./img/poland.jpg"),
         title: "Poland"
-    }    
+    }, 
+       {
+        id:6,
+        img: require("./img/ireland.jpg"),
+        title: "Ireland"
+    } 
+       
 ]
 const About = () => {
     const countryCard = Countries.map(country =>{
