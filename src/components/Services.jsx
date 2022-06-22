@@ -31,7 +31,7 @@ const media = [
     id:11,
     img: require("./img/ux.jpg"),
     heading: "UX/UI Design",
-    text:"This involves crafting visual images intended to project information to individuals for a specific purpose.This involves crafting visual images intended to project information to individuals for a specific purpose."
+    text:" UX design refers to the term “user experience design”, while UI stands for “user interface design”. Both elements are crucial to a product and work closely together."
   },
 {
     id:12,
