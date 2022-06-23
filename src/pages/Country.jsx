@@ -52,40 +52,39 @@ const Country = () => {
     } = visaRequirements;
   return (
       <div>
-          {
-                [title,
-    content,
-    Location,
-    Currency,
-    Language,
-    EnglishProficiency,
-    WorkPermit,
-    WorkingHours,
-    averageIncome,
-    costOfLiving,
-    postStudyVisa,
-    englishProficiencyReq,
-passport,
-        photo,
-        transcripts,
-        proofOfEnglishProficiency,
-addition,
-        postTranscript,
-         postCv,
-        sop,
-  pic,
-        id,
-        cert,
-        financeproof,
-        health,
-        letter,
-        cv,
-        travelIns,
-        birthCert,
-        langProf,
-        motLetter,
-        delivery].map((val)=><h1>{val}</h1>)
-          }
+          {title}
+          {content}
+    {Location}
+    {Currency}
+    {Language}
+    {EnglishProficiency}
+    {WorkPermit}
+    {WorkingHours}
+    {averageIncome}
+    {costOfLiving}
+    {postStudyVisa}
+    {englishProficiencyReq}
+{passport}
+        {photo}
+        {transcripts}
+        {proofOfEnglishProficiency}
+{addition}
+        {postTranscript}
+         {postCv}
+        {sop}
+  {pic}
+        {id}
+        {cert}
+        {financeproof}
+        {health}
+        {letter}
+        {cv}
+        {travelIns}
+        {birthCert}
+        {langProf}
+        {motLetter}
+          {delivery}
+          
     </div>
   )
 }
