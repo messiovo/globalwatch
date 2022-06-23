@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Hero, About, Services, Contact} from '../components'
+import { Hero, About, Services, Contact} from '../components'
 
 const HomePage = () => {
   
@@ -9,7 +9,6 @@ const HomePage = () => {
       <About/>
       <Services/>
       <Contact/>
-      <Footer/>
     </div>
   )
 }
