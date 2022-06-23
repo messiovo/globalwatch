@@ -211,7 +211,7 @@ const countryinfo = [
                             delivery:"A prepaid courier envelope by one of the major courier services in Nigeria."
                         }
         },
-         Germany:{
+       /*  Germany:{
             title:"Study In Germany",
             content:"Germany is highly popular among international students. This is mainly because of the country's many excellent universities offering numerous Bachelor’s and Master’s programmes taught in English, its dynamic student life and good funding options. Germany is home to some of the highest-ranked universities in the world, with almost 400,000 international students in enrolment.",
                         
@@ -316,7 +316,7 @@ const countryinfo = [
                             motLetter: "Motivational letter",
                             delivery:"A prepaid courier envelope by one of the major courier services in Nigeria."
                         }
-        },
+        },*/
         
     }
 ]
