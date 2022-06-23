@@ -1,6 +1,6 @@
 
 
-const countryinfo = [
+const country = [
     {
         Germany:{
             title:"Study In Germany",
@@ -321,4 +321,4 @@ const countryinfo = [
     }
 ]
 
-export default countryinfo
+export default country;
