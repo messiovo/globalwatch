@@ -169,7 +169,7 @@ Our prices are very competitive. We make sure that you get expert advice at affo
             <td>Work permit for international students who have studied a bachelor’s or master’s course in the UK</td>
           </tr>
         <tr>
-            <td>Unmarried Partner Visa</td>
+             <td>Unmarried Partner Visa</td>
             <td>Long-term partner of British Citizens/settled persons</td>
           </tr>
         <tr>
@@ -198,4 +198,4 @@ Our prices are very competitive. We make sure that you get expert advice at affo
   )
 }
 
-export default Services
+export default Services;
