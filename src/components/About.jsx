@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import StepCard from './StepCard';
-import CountriesCard from './CountriesCard';
+import { Link } from 'react-router-dom'
 const data = [
     {
         id: 1,
@@ -80,12 +80,16 @@ const About = () => {
         <div className=' p-10 pb-20 rounded-lg'>
             <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl mb-4'>Our Four Step Process</h2>
         <div className='flex flex-col lg:flex-row'>
-        { data.map(item =>(
-        <StepCard 
-        key={item.id}
-        item={item}
-        />
-        )
+        { data.map(item => {
+  const { no,title,content} = item;
+  return (
+    <div className=" w-80  px-8 m-4 py-8 rounded-xl text-center  card1">
+        <span className='bg-[#e2e2e2] w-10 h-8 rounded-full block m-auto pt-1 mb-4 font-bold'>{no}</span>
+        <h2 className=' font-bold pb-2 text-white'>{title}</h2>
+        <p className='text-white '>{content}</p>
+    </div>
+  )
+}
     )}
         </div>
         </div>
@@ -93,14 +97,16 @@ const About = () => {
             <div>
                 <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl '>Our Countries</h2>
             </div>
-            <div className='px-20 pt-4 flex justify-around flex-wrap flex-col lg:flex-row'>
-                {Countries.map(country =>(
-            <CountriesCard
-            key={country.id}
-            country= {country}
-            />
-        )
-    )}
+            <div className='px-20 pt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full'>
+                  {Countries.map((country) => {
+                      const { img, title } = country;
+                      return (
+                          <div className='w-60 h-40 bg-[#252F46] m-4 mx-6 rounded-lg card2'>
+                              <Link to={`/country/${title}`}><img className='w-60 h-28 rounded-t-lg' src={img} alt="" />
+                                  <h2 className='p-2 text-white text-center font-bold'>{title}</h2>
+                              </Link>
+                          </div>
+                      )})};
             </div>
       <span className="flex flex-col gap-2 items-center pt-14">
       <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl mb-4'>Testimonial</h2>
