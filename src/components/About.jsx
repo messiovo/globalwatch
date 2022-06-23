@@ -96,11 +96,11 @@ const About = () => {
             <div>
                 <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl '>Our Countries</h2>
             </div>
-            <div className='p-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full'>
+            <div className='p-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-12'>
                   {Countries.map((country) => {
                       const { img, title } = country;
                       return (
-                          <div className='w-60 h-40 bg-[#252F46] rounded-lg card2 mx-auto'>
+                          <div className='w-60 h-40 bg-[#252F46] rounded-lg card2 m-auto'>
                               <Link to={`/country/${title}`}><img className='w-60 h-28 rounded-t-lg' src={img} alt="" />
                                   <h2 className='p-2 text-white text-center font-bold'>{title}</h2>
                               </Link>
