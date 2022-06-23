@@ -1,6 +1,5 @@
 import React from 'react';
 import './Hero.css';
-import StepCard from './StepCard';
 import { Link } from 'react-router-dom'
 const data = [
     {
@@ -63,7 +62,7 @@ const Countries = [
 ]
 const About = () => {
   return (
-    <div className='p-10 bg-[#e2e2e2]'>
+    <div className='p-10 bg-[#e2e2e2] w-full'>
         <div className='w-full flex flex-col p-6 gap-8'>
 
             <span className="flex flex-col gap-2 items-center">
@@ -79,7 +78,7 @@ const About = () => {
         </div>
         <div className=' p-10 pb-20 rounded-lg'>
             <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl mb-4'>Our Four Step Process</h2>
-        <div className='flex flex-col lg:flex-row'>
+        <div className='flex flex-col lg:flex-row w-full'>
         { data.map(item => {
   const { no,title,content} = item;
   return (
@@ -93,15 +92,15 @@ const About = () => {
     )}
         </div>
         </div>
-        <div>
+        <div className="w-full">
             <div>
                 <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl '>Our Countries</h2>
             </div>
-            <div className='px-20 pt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full'>
+            <div className='p-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full'>
                   {Countries.map((country) => {
                       const { img, title } = country;
                       return (
-                          <div className='w-60 h-40 bg-[#252F46] m-4 mx-6 rounded-lg card2'>
+                          <div className='w-60 h-40 bg-[#252F46] rounded-lg card2 mx-auto'>
                               <Link to={`/country/${title}`}><img className='w-60 h-28 rounded-t-lg' src={img} alt="" />
                                   <h2 className='p-2 text-white text-center font-bold'>{title}</h2>
                               </Link>
