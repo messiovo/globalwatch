@@ -62,15 +62,6 @@ const Countries = [
        
 ]
 const About = () => {
-    const countryCard = Countries.map(country =>{
-
-        return(
-            <CountriesCard
-            key={country.id}
-            country= {country}
-            />
-        )
-    })
   return (
     <div className='p-10 bg-[#e2e2e2]'>
         <div className='w-full flex flex-col p-6 gap-8'>
@@ -103,7 +94,13 @@ const About = () => {
                 <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl '>Our Countries</h2>
             </div>
             <div className='px-20 pt-4 flex justify-around flex-wrap flex-col lg:flex-row'>
-                {countryCard}
+                {Countries.map(country =>(
+            <CountriesCard
+            key={country.id}
+            country= {country}
+            />
+        )
+    )}
             </div>
       <span className="flex flex-col gap-2 items-center pt-14">
       <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl mb-4'>Testimonial</h2>
