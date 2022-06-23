@@ -6,7 +6,7 @@ import {AiOutlineTwitter, AiFillInstagram, AiOutlineCopyrightCircle} from 'react
 const Footer = () => {
   
   return (
-    <footer className='bg-[#252F46] text-white flex flex-col items-center p-10 min-h-screen justify-center'>
+    <footer className='bg-[#252F46] text-white flex flex-col items-center p-10 justify-center'>
         <div>
           <span className='flex flex-col font-black text-2xl leading-6 uppercase text-left  cursor-pointer ml-10 items-center '>
               Global 
