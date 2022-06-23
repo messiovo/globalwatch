@@ -8,6 +8,7 @@ function App() {
       <Navbar/>
       <Routes>
     <Route path='/' element={<Homepage />} />
+    <Route path='/country/:countryId' element={<Homepage />} />
   </Routes>
       </div>
   );
