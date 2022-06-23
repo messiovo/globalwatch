@@ -23,6 +23,32 @@ const Country = () => {
         undergraduateStudy,
         postGraduateStudy
     } = applicationRequirements;
+    const {
+        passport,
+        photo,
+        transcripts,
+        proofOfEnglishProficiency
+    } = undergraduateStudy;
+    const {
+        addition,
+        transcripts : postTranscript,
+        cv : postCv,
+        sop
+    } = postGraduateStudy;
+    const {
+        pic,
+        id,
+        cert,
+        financeproof,
+        health,
+        letter,
+        cv,
+        travelIns,
+        birthCert,
+        langProf,
+        motLetter,
+        delivery
+    } = visaRequirements;
   return (
       <div>
           {}
