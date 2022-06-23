@@ -28,11 +28,11 @@ const data = [
     }
 ];
 const Countries = [
-    {
-        id:1,
-        img: require("./img/uk.jpg"),
-        title: "United Kingdom"
-    },  
+    // {
+    //     id:1,
+    //     img: require("./img/uk.jpg"),
+    //     title: "United Kingdom"
+    // },  
     {
         id:2,
         img: require("./img/germany.jpeg"),
@@ -43,11 +43,11 @@ const Countries = [
         img: require("./img/cyprus.jpeg"),
         title: "Cyprus"
     },
-    {
-        id:4,
-        img: require("./img/russia.jpg"),
-        title: "Russia"
-    },
+    // {
+    //     id:4,
+    //     img: require("./img/russia.jpg"),
+    //     title: "Russia"
+    // },
     {
         id:5,
         img: require("./img/poland.jpg"),

@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useParams } from 'react-router-dom/index';
 import { country } from '../services';
 const Country = () => {
-    const {countryId } = useParams();
+    const { countryId } = useParams();
+    const [data, setData] = useState(country[countryId])
     const {
     title,
     content,
@@ -18,7 +19,7 @@ const Country = () => {
     englishProficiencyReq,
     visaRequirements,
     applicationRequirements
-    } = country[countryId];
+    } = data;
     const {
         undergraduateStudy,
         postGraduateStudy
@@ -51,7 +52,40 @@ const Country = () => {
     } = visaRequirements;
   return (
       <div>
-          {}
+          {
+                [title,
+    content,
+    Location,
+    Currency,
+    Language,
+    EnglishProficiency,
+    WorkPermit,
+    WorkingHours,
+    averageIncome,
+    costOfLiving,
+    postStudyVisa,
+    englishProficiencyReq,
+passport,
+        photo,
+        transcripts,
+        proofOfEnglishProficiency,
+addition,
+        postTranscript,
+         postCv,
+        sop,
+  pic,
+        id,
+        cert,
+        financeproof,
+        health,
+        letter,
+        cv,
+        travelIns,
+        birthCert,
+        langProf,
+        motLetter,
+        delivery].map((val)=><h1>{val}</h1>)
+          }
     </div>
   )
 }
