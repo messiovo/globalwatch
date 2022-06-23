@@ -107,10 +107,6 @@ const About = () => {
                           </div>
                       )})};
             </div>
-      <span className="flex flex-col gap-2 items-center pt-14">
-      <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl mb-4'>Testimonial</h2>
-           
-      </span>
         </div>
 
     </div>
