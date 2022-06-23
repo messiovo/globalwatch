@@ -184,10 +184,10 @@ Our prices are very competitive. We make sure that you get expert advice at affo
           <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate"></div>
         </span>
     </div>
-    <div className='px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-    {media.map(mediaItem => (
-       <div className='w-60 rounded-lg bg-black text-white my-8 mx-4'>
-        <img src={mediaItem.img} alt="" className='rounded-t-lg w-60 h-36' />
+    <div className='px-10 grid grid-cols-1 lg:grid-cols-4 gap-6'>
+    {media.map((mediaItem,i) => (
+       <div className='w-full rounded-lg bg-black text-white my-8 mx-4' data-aos={`zoom-${i % 2 == 0 ?  `out` : `in` }`}>
+        <img src={mediaItem.img} alt="" className='rounded-t-lg w-full h-64' />
         <h2 className='font-bold text-xl pl-6 py-4'>{mediaItem.heading}</h2>
         <p className='px-6 pb-12'>{mediaItem.text}</p>
     </div>

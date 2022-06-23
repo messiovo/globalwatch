@@ -3,25 +3,25 @@ import './Hero.css';
 import { Link } from 'react-router-dom'
 const data = [
     {
-        id: 1,
+        
         no: '1',
         title: "Application",
         content: "Search for school of your chioce, apply online via email, phone, call or in person at our office"
     },
     {
-        id: 1,
+        
         no: '2',
         title: "Documentation",
         content: "Provide all necessary documents required"
     },
     {
-        id: 1,
+        
         no: '3',
         title: "Visa Application",
         content: "Once granted admission, we will guide you through out the visa application process, our success rate is highly impressive"
     },
     {
-        id: 1,
+        
         no: '4',
         title: "Enrollment",
         content: "Search for school of your chioce, apply online via email, phone, call or in person at our office"
@@ -82,7 +82,7 @@ const About = () => {
         { data.map(item => {
   const { no,title,content} = item;
   return (
-    <div className="w-full px-8 m-4 py-8 rounded-xl text-center  card1">
+    <div key={item.no} className="w-full px-8 m-4 py-8 rounded-xl text-center  card1">
         <span className='bg-[#e2e2e2] w-10 h-8 rounded-full block m-auto pt-1 mb-4 font-bold'>{no}</span>
         <h2 className=' font-bold pb-2 text-white'>{title}</h2>
         <p className='text-white '>{content}</p>
@@ -100,7 +100,7 @@ const About = () => {
                   {Countries.map((country) => {
                       const { img, title } = country;
                       return (
-                          <div className='w-60 h-40 bg-[#252F46] rounded-lg card2 m-auto'>
+                          <div key={title} data-aos="flip-left" className='w-60 h-40 bg-[#252F46] rounded-lg card2 m-auto'>
                               <Link to={`/country/${title}`}><img className='w-60 h-28 rounded-t-lg' src={img} alt="" />
                                   <h2 className='p-2 text-white text-center font-bold'>{title}</h2>
                               </Link>
