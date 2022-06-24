@@ -159,26 +159,30 @@ const country =
         }
     },
     Ireland: {
-        title: "Study In Germany",
-        content: "Germany is highly popular among international students. This is mainly because of the country's many excellent universities offering numerous Bachelor’s and Master’s programmes taught in English, its dynamic student life and good funding options. Germany is home to some of the highest-ranked universities in the world, with almost 400,000 international students in enrolment.",
+        title: "Study In Ireland",
+        content: "Ireland is one of the most popular study abroad destinations in Europe. Its universities offer first-rate education in a traditional, yet modern setting. Thousands of study programs at over two dozen schools attract international students from around the world.Ireland is such a good place to study abroad for a wide number of reasons, including the standard of teaching and education, the career opportunities, and the enjoyable lifestyle..",
                         
-        Location: "	Central Europe",
+        Location: "West of Great Britain",
 
         Currency: "Euro (€) = N438.40",
 
-        Language: "German",
+        Language: "English",
 
-        EnglishProficiency: "An average 56% of the people of Germany can speak English",
+        EnglishProficiency: "An average of 99% of the people of Ireland can speak English",
 
-        WorkPermit: "Students studying in Germany can work full or part time ",
+        WorkPermit: "International students engaged in full-time study of at least one year’s duration do not need a permit to work in Ireland",
 
         WorkingHours: "20 hrs/week, 40 hrs/week on holidays",
 
-        averageIncome: "€10/hr to €15/hr",
+        averageIncome: "€10/hr",
 
-        costOfLiving: " €800/month to €900/month",
+        costOfLiving: "€550/month to €1,000/month",
 
-        postStudyVisa: "Students from non-EU countries who wish to work in Germany after graduating can extend their residence permit for up to 18 months to find work relating to their studies.Dependant Visa	German Visa for Family Reunification entitles your non-EU/EEA family members to come and stay in Germany, while you’re completing a study course on the basis of a German Residence Permit.Average Tuition: 	For Public University its free with only administration charges of around €300 For Private Universities tuition fees could range between €26,000 to €40,000",
+        postStudyVisa: "Ireland is allowing international students in their second semester of programs delivered by Irish higher education institutions to remain eligible for post-study work rights.",
+
+        dependantVisa:"Non-EU international students studying in Ireland are not allowed to bring their family with them. Spouses and children of international students can apply to live in Ireland separately.",
+
+        averageTuition:"Average tuition fees for both undergraduate and post-graduate studies could range from €9000 to €55,000",
 
         applicationRequirements: {
             undergraduateStudy: {
@@ -200,7 +204,7 @@ const country =
             pic: "Two biometric visa pictures",
             id: " International Passport",
             cert: "Original School Certificates",
-            financeproof: "Proof of Financial means to sustain yourself in Germany",
+            financeproof: "Proof of Financial status",
             health: "Health Insurance Certificate",
             letter: "Acceptance Letter from the University",
             cv: " CV",
@@ -211,27 +215,31 @@ const country =
             delivery: "A prepaid courier envelope by one of the major courier services in Nigeria."
         }
     },
-    /*  Germany:{
-         title:"Study In Germany",
-         content:"Germany is highly popular among international students. This is mainly because of the country's many excellent universities offering numerous Bachelor’s and Master’s programmes taught in English, its dynamic student life and good funding options. Germany is home to some of the highest-ranked universities in the world, with almost 400,000 international students in enrolment.",
+      Russia:{
+         title:"Study In Russia",
+         content: "Studying in Russia is a popular choice for international students with a wide variety of interests, be they literature, art, history, or Russian language studies. International students in Russia will receive a high quality education in a culturally diverse environment.Russia possesses one of the best mass-education systems in the world, and has a long-standing tradition of high-quality education for all citizens. Russia’s education system produces a 98% literacy rate, exceeding that of most Western European countries.",
                      
-         Location: "	Central Europe",
+         Location: "Eastern Europe",
 
-         Currency:	"Euro (€) = N438.40",
+         Currency:	"Ruble (RUB) = N7.73",
 
-         Language:	"German",
+         Language:	"Russian",
 
-         EnglishProficiency:"An average 56% of the people of Germany can speak English",
+         EnglishProficiency:"An average 5% of the people of Russia can speak English",
 
-         WorkPermit:	"Students studying in Germany can work full or part time ",
+         WorkPermit:	"Foreign students don't need a work permit to apply for a job in Russia ",
 
          WorkingHours:"20 hrs/week, 40 hrs/week on holidays",
 
-         averageIncome: "€10/hr to €15/hr",
+         averageIncome: "Between 35,000 RUB to 45,000 RUB a month",
 
-         costOfLiving:" €800/month to €900/month",
+         costOfLiving:" 18,000 RUB/month to 26,000 RUB/month (300 to 400 dollars)",
 
-         postStudyVisa:"Students from non-EU countries who wish to work in Germany after graduating can extend their residence permit for up to 18 months to find work relating to their studies.Dependant Visa	German Visa for Family Reunification entitles your non-EU/EEA family members to come and stay in Germany, while you’re completing a study course on the basis of a German Residence Permit.Average Tuition: 	For Public University its free with only administration charges of around €300 For Private Universities tuition fees could range between €26,000 to €40,000",
+         dependantVisa:"Spouse or family of international students in Russia can join them on a dependency visa so long as they can prove that they have the capability to support them.",
+
+         averageTuition:"Bachelor’s degree in Russia can cost from RUB 220,000 to 240,000 (USD 3,385 to 3,690) per year. Master’s degree can cost from RUB 240,000 to 260,000 (USD 3,746 to USD 4,058) up to RUB 450,000 (USD 8,082) per year",
+         
+         postStudyVisa:"Graduates of accredited Russian institutions can stay in the country after studying as temporary residents, valid for only 3 years but can be renewed.",
 
          applicationRequirements:{
              undergraduateStudy:{
@@ -253,7 +261,7 @@ const country =
                          pic:"Two biometric visa pictures", 
                          id:   " International Passport",
                          cert: "Original School Certificates",
-                         financeproof:"Proof of Financial means to sustain yourself in Germany",
+                         financeproof:"Proof of Financial status",
                          health: "Health Insurance Certificate",
                          letter:"Acceptance Letter from the University",
                          cv:" CV",
@@ -261,37 +269,42 @@ const country =
                          birthCert: "Birth certificate/Declaration of Age",
                          langProf: "Proof of language proficiency",
                          motLetter: "Motivational letter",
-                         delivery:"A prepaid courier envelope by one of the major courier services in Nigeria."
+                         aidCert: "A valid and recent HIV/AIDS certificate",
+                         invitation:"An original invitation to enter the territory of the Russian Federation.",
+                         policeForm:"Police Character Certificate."
                      }
      },
-      Germany:{
-         title:"Study In Germany",
-         content:"Germany is highly popular among international students. This is mainly because of the country's many excellent universities offering numerous Bachelor’s and Master’s programmes taught in English, its dynamic student life and good funding options. Germany is home to some of the highest-ranked universities in the world, with almost 400,000 international students in enrolment.",
+      UK:{
+         title:"Study In The United Kingdow",
+         content:".Hundreds of thousands of international students, study in the UK each year, giving the UK a consistently high ranking in popularity. With a diverse population and a reputation for prestigious schooling, the UK is a natural location for international students.The UK is a multicultural country and the second most popular destination for overseas students in the world. A degree from any British university will look great on a CV, and when looking for work in the future, no matter the industry and the location, having a qualification from the UK will be a great selling point.",
                      
-         Location: "	Central Europe",
+         Location: "North-western coast of mainland Europe",
 
-         Currency:	"Euro (€) = N438.40",
+         Currency:	"Pound sterling (GBP) = N 506.85",
 
-         Language:	"German",
+         Language:	"English",
 
-         EnglishProficiency:"An average 56% of the people of Germany can speak English",
+         EnglishProficiency:"English is the native language of the United Kingdom",
 
-         WorkPermit:	"Students studying in Germany can work full or part time ",
+         WorkPermit:	"Foreign students enrolled on the UK are entitled to work part time ",
 
          WorkingHours:"20 hrs/week, 40 hrs/week on holidays",
 
-         averageIncome: "€10/hr to €15/hr",
+         averageIncome: "An average of £10/hr",
 
-         costOfLiving:" €800/month to €900/month",
+         costOfLiving:"£700/month to £1,100/month",
 
-         postStudyVisa:"Students from non-EU countries who wish to work in Germany after graduating can extend their residence permit for up to 18 months to find work relating to their studies.Dependant Visa	German Visa for Family Reunification entitles your non-EU/EEA family members to come and stay in Germany, while you’re completing a study course on the basis of a German Residence Permit.Average Tuition: 	For Public University its free with only administration charges of around €300 For Private Universities tuition fees could range between €26,000 to €40,000",
+         postStudyVisa:"International students who have successfully completed an undergraduate or master's degree can apply to stay in the UK for up to two years after their studies",
 
+         dependancyVisa:"Your partner and children ('dependants') may be able to apply to come to the UK or stay longer in the UK, provided that you are a full-time student on a postgraduate level course.",
+         
+         averageTuition:"Starting from £10,000 and going up to £38,000 or more for medical degrees",
+         
          applicationRequirements:{
              undergraduateStudy:{
                  passport:" International Passport", 
                  photo:"Passport Size Photographs",
-                 transcripts: "Secondary school academic report (O-level WAEC/NECO)",
-                 proofOfEnglishProficiency: " TOEFL or IELTS"
+                 transcripts: "Secondary school academic report (O-level WAEC/NECO)"
              },
              postGraduateStudy:{
                  addition:"(In addition to the requirements for Undergraduate Study)",
@@ -301,12 +314,11 @@ const country =
              }
      },
 
-         englishProficiencyReq:	"Yes. TOEFL or IELTS",
          visaRequirements: {
                          pic:"Two biometric visa pictures", 
                          id:   " International Passport",
                          cert: "Original School Certificates",
-                         financeproof:"Proof of Financial means to sustain yourself in Germany",
+                         financeproof:"Proof of Financial status",
                          health: "Health Insurance Certificate",
                          letter:"Acceptance Letter from the University",
                          cv:" CV",
@@ -314,9 +326,9 @@ const country =
                          birthCert: "Birth certificate/Declaration of Age",
                          langProf: "Proof of language proficiency",
                          motLetter: "Motivational letter",
-                         delivery:"A prepaid courier envelope by one of the major courier services in Nigeria."
+                         test:"Tuberculosis test results"
                      }
-     },*/
+     },
         
 };
 

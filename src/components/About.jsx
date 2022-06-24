@@ -28,11 +28,11 @@ const data = [
     }
 ];
 const Countries = [
-    // {
-    //     id:1,
-    //     img: require("./img/uk.jpg"),
-    //     title: "United Kingdom"
-    // },  
+     {
+         id:1,
+         img: require("./img/uk.jpg"),
+         title: "The United Kingdom"
+     },  
     {
         id:2,
         img: require("./img/germany.jpeg"),
@@ -43,11 +43,11 @@ const Countries = [
         img: require("./img/cyprus.jpeg"),
         title: "Cyprus"
     },
-    // {
-    //     id:4,
-    //     img: require("./img/russia.jpg"),
-    //     title: "Russia"
-    // },
+     {
+         id:4,
+         img: require("./img/russia.jpg"),
+         title: "Russia"
+     },
     {
         id:5,
         img: require("./img/poland.jpg"),
@@ -67,7 +67,7 @@ const About = () => {
 
             <span className="flex flex-col gap-2 items-center">
                 <h2 className="text-center font-bold text-2xl lg:text-4xl uppercase">About Us</h2>
-                <div className="w-40 h-2 bg-black rounded-full lg:w-44 down"></div>
+                <div className="w-40 h-2 bg-black rounded-full lg:w-44" data-aos="fade-up"></div>
             </span>
             <div className='text-center lg:text-lg font-semibold text-base'>
                 <p>We are a team of hignly experienced professionals 
@@ -107,10 +107,6 @@ const About = () => {
                           </div>
                       )})};
             </div>
-      <span className="flex flex-col gap-2 items-center pt-14">
-      <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl mb-4'>Testimonial</h2>
-           
-      </span>
         </div>
 
     </div>

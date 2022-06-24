@@ -59,7 +59,7 @@ const Services = () => {
     <div className='p-10  rounded-lg m-10'>
        <span className="flex flex-col gap-2 items-center">
                 <h2 className="text-center font-bold text-2xl lg:text-4xl uppercase">services</h2>
-                <div className="w-40 h-2 bg-black rounded-full lg:w-44 down"></div>
+                <div className="w-40 h-2 bg-black rounded-full lg:w-44" data-aos="fade-up"></div>
             </span>
       <div className='px-14 py-8'>
         <span className="flex flex-col gap-2 ">
@@ -187,9 +187,9 @@ Our prices are very competitive. We make sure that you get expert advice at affo
     <div className='px-10 grid grid-cols-1 lg:grid-cols-4 gap-6'>
     {media.map((mediaItem,i) => (
        <div className='w-full rounded-lg bg-black text-white my-8 mx-4' data-aos={`zoom-${i % 2 == 0 ?  `out` : `in` }`}>
-        <img src={mediaItem.img} alt="" className='rounded-t-lg w-full h-64' />
-        <h2 className='font-bold text-xl pl-6 py-4'>{mediaItem.heading}</h2>
-        <p className='px-6 pb-12'>{mediaItem.text}</p>
+        <img src={mediaItem.img} alt="" className='rounded-t-lg w-full h-60' />
+        <h2 className='font-bold text-xl px-6 py-4'>{mediaItem.heading}</h2>
+        <p className='px-6 pb-8'>{mediaItem.text}</p>
     </div>
     )
     )} 

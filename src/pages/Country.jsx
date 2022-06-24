@@ -54,21 +54,22 @@ const Country = () => {
       <div>
           {title}
           {content}
-    {Location}
-    {Currency}
-    {Language}
-    {EnglishProficiency}
-    {WorkPermit}
-    {WorkingHours}
-    {averageIncome}
-    {costOfLiving}
-    {postStudyVisa}
-    {englishProficiencyReq}
-{passport}
-        {photo}
-        {transcripts}
-        {proofOfEnglishProficiency}
-{addition}
+            {Location}
+            {Currency}
+            {Language}
+            {EnglishProficiency}
+            {WorkPermit}
+            {WorkingHours}
+            {averageIncome}
+            {costOfLiving}
+            {postStudyVisa}
+            {englishProficiencyReq}
+             {passport}
+            {photo}
+            {transcripts}
+            {proofOfEnglishProficiency}
+            
+    {addition}
         {postTranscript}
          {postCv}
         {sop}
@@ -83,7 +84,8 @@ const Country = () => {
         {birthCert}
         {langProf}
         {motLetter}
-          {delivery}
+        {delivery}
+        {test}
           
     </div>
   )
