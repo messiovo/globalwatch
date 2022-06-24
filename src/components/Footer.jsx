@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import {FaFacebookF} from 'react-icons/fa';
-import {AiOutlineTwitter, AiFillInstagram, AiOutlineCopyrightCircle} from 'react-icons/ai'
+import {AiOutlineTwitter, AiOutlineCopyrightCircle} from 'react-icons/ai'
 
 const Footer = () => {
   
@@ -18,9 +18,7 @@ const Footer = () => {
             </span>
           </span>
           <p className='text-center p-10'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br/>
-               Fuga adipisci sequi fugit porro magni excepturi nobis ut conseofficia numquam <br/>
-               repellat distinctio eos dignissimos aliquid fugit?
+              Making the process of studying abroad easy and smooth.
           </p>
           </div>
         <div className='flex flex-col px-10 gap-8  sm:flex-row'>
@@ -29,7 +27,6 @@ const Footer = () => {
         </div>
         <div className='flex pt-4'>
             <Link to='./'><span><FaFacebookF size={30} className='m-6'/></span></Link>
-            <Link to='./'><span><AiFillInstagram size={30} className='m-6'/></span></Link>
             <Link to='./'><span><AiOutlineTwitter size={30} className='m-6'/></span></Link>
         </div>
         <div className='flex text-sm justify-end pt-20 w-full'>
