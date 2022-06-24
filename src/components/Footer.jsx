@@ -76,8 +76,7 @@ const Footer = () => {
 </defs>
 </svg></span></Link>
         <div className='flex text-sm pt-20 w-full'>
-          <AiOutlineCopyrightCircle/>
-          <p>Messiovo & Udoka</p>
+          <p>&copy; Messiovo & Udoka</p>
         </div>
     </div>
     </div>
