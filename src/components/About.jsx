@@ -24,7 +24,7 @@ const data = [
         
         no: '4',
         title: "Enrollment",
-        content: "Search for school of your chioce, apply online via email, phone, call or in person at our office"
+        content: "We will provide support with logistics to make the enrollment process at your scholl of admsson easy"
     }
 ];
 const Countries = [
