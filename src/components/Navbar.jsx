@@ -11,9 +11,20 @@ const Navbar = () => {
   }
 
 
+
   return (
     <div className='nav align-middle z-10'>
-          <Link to="/"><span className='flex flex-col font-black text-2xl leading-6 uppercase text-left  cursor-pointer ml-10'>G <span c>W</span><span className=''>C</span></span></Link>
+          <Link to="/">
+          <span className='flex flex-col font-bold text-2xl leading-6 uppercase text-center pl-8 cursor-pointer'>
+              Global 
+            <span>
+                Watch
+            </span>
+            <span className='text-xs text-[#C2956D]'>
+              Catalogue
+            </span>
+          </span>      
+            </Link>
       <ul className={`${dropdown ? `h-0` : `h-full bg-slate-800 top-60 py-20`} lg:h-auto flex lg:flex-row flex-col my-auto align-middle overflow-y-hidden lg:overflow-y-visible transition-all ease-in duration-1000 gap-12 ml-auto mr-auto lg:relative lg:top-0 absolute w-full inset-0 lg:inset-auto items-center lg:py-0 lg:bg-transparent lg:ml-auto lg:float-right lg:w-fit`}>
         <li>
           <Link to="/"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer'>Home</span></Link>

@@ -5,20 +5,15 @@ const Footer = () => {
   return (
     <div className='bg-[#252F46] text-white flex flex-col items-center p-6'>
         <div>
-          <span className='flex flex-col font-black text-2xl leading-6 uppercase text-center cursor-pointer'>
+          <span className='flex flex-col font-bold text-2xl leading-6 uppercase text-center cursor-pointer'>
               Global 
             <span>
                 Watch
             </span>
-            <span className='text-xs'>
+            <span className='text-xs text-[#C2956D]'>
               Catalogue
             </span>
-          </span>
-          <p className='text-center'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br/>
-               Fuga adipisci sequi fugit porro magni excepturi nobis ut conseofficia numquam <br/>
-          repellat distinctio eos dignissimos aliquid fugit?
-          </p>
+          </span>              
           <p className='text-center p-10'>
               Making the process of studying abroad easy and smooth.
           </p>
