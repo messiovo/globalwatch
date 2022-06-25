@@ -54,7 +54,7 @@ const Country = () => {
   return (
       <div className='flex flex-col p-24 gap-8'>
           <h1 className='font-bold text-xl text-center'>{title}</h1>
-          <p className='font-semibold'>{content}</p>
+          <p className='font-semibold text-center'>{content}</p>
             <div className="flex gap-6"><span className='text-lg font-semibold'>Location:</span><span>{Location}</span></div>
             <div className="flex gap-6"><span className='text-lg font-semibold'>Currency:</span><span>{Currency}</span></div>
             <div className="flex gap-6"><span className='text-lg font-semibold'>Language:</span><span>{Language}</span></div>

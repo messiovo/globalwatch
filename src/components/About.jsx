@@ -62,7 +62,7 @@ const Countries = [
 ]
 const About = () => {
   return (
-    <div className='p-10 bg-[#e2e2e2] w-full'>
+    <div className='p-10 bg-[#e2e2e2] w-full' id="about">
         <div className='w-full flex flex-col p-6 gap-8'>
 
             <span className="flex flex-col gap-2 items-center">

@@ -4,7 +4,7 @@ import {AiTwotoneMail} from 'react-icons/ai';
 
 const Contact = () => {
   return (
-    <div className='p-10 pb-20 bg-[#e2e2e2]'>
+    <div className='p-10 pb-20 bg-[#e2e2e2]' id='contact'>
       <span className="flex flex-col gap-2 items-center">
           <h2 className="text-center font-bold text-2xl lg:text-4xl uppercase" >Contact</h2>
           <div className="w-40 h-2 bg-black rounded-full lg:w-44" data-aos="fade-up"></div>

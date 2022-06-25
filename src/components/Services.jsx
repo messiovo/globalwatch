@@ -56,14 +56,14 @@ const media = [
 const Services = () => {
 
   return (
-    <div className='p-10  rounded-lg m-10'>
+    <div className='p-10  rounded-lg m-10' id='services'>
        <span className="flex flex-col gap-2 items-center">
                 <h2 className="text-center font-bold text-2xl lg:text-4xl uppercase">services</h2>
                 <div className="w-40 h-2 bg-black rounded-full lg:w-44" data-aos="fade-up"></div>
             </span>
       <div className='px-14 py-8'>
         <span className="flex flex-col gap-2 ">
-      <h2 className='text-[#252F46] font-bold text-2xl lg:text-3xl'>Immigration Services</h2>
+          <h2 className='text-[#252F46] font-bold text-2xl lg:text-3xl' id='immigrationService'>Immigration Services</h2>
         <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate"></div>
         </span>
         <p className='text-xl py-8 leading-normal'>We offer advisory and processing services for those seeking travel to The UK and European countries.
@@ -180,13 +180,13 @@ Our prices are very competitive. We make sure that you get expert advice at affo
       </div>
       <div className='px-14 pt-12'>
         <span className="flex flex-col gap-2 ">
-          <h2 className='text-[#252F46] font-bold text-2xl lg:text-3xl'>Multimedia Training & Services</h2>
+          <h2 className='text-[#252F46] font-bold text-2xl lg:text-3xl' id='multimediaservice'>Multimedia Training & Services</h2>
           <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate"></div>
         </span>
     </div>
     <div className='px-10 grid grid-cols-1 lg:grid-cols-4 gap-6'>
     {media.map((mediaItem,i) => (
-       <div className='w-full rounded-lg bg-black text-white my-8 mx-4' data-aos={`zoom-${i % 2 == 0 ?  `out` : `in` }`}>
+       <div key={i} className='w-full rounded-lg bg-black text-white my-8 mx-4' data-aos={`zoom-${i % 2 === 0 ?  `out` : `in` }`}>
         <img src={mediaItem.img} alt="" className='rounded-t-lg w-full h-60' />
         <h2 className='font-bold text-xl px-6 py-4'>{mediaItem.heading}</h2>
         <p className='px-6 pb-8'>{mediaItem.text}</p>

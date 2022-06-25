@@ -30,25 +30,25 @@ const Navbar = () => {
           <Link to="/"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer'>Home</span></Link>
         </li>
         <li>
-          <Link to="/"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer'>About</span></Link>
+          <a href="#about"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer'>About</span></a>
         </li>
         <li>
           <span className='transition-all duration-300 flex flex-col items-center group'> 
-            <div className='items-center flex group-hover:text-slate-300'>Services</div> 
+            <a href="#services" className='cursor-pointer hover:text-slate-300 z-[50]'><div>Services</div></a>
             <div className="w-36 h-36 bg-transparent absolute lg:flex hidden"></div>
           <ul className='group-hover:h-fit flex flex-col lg:top-16 bg-slate-600 lg:absolute gap-4 h-0 overflow-y-hidden group-hover:py-3  transition-all ease-in duration-300 z-10'>
             <li>
-              <Link to="/"><span className='m-6 hover:text-slate-300/30'>Immigration Services</span></Link>
+              <a href="#immigrationService"><span className='m-6 hover:text-slate-300/30'>Immigration Services</span></a>
               </li>
               <li className='w-full h-2 bg-slate-300/30'></li>
               <li>
-              <Link to="/"><span className='m-6 hover:text-slate-300/30'>Multimedia Services</span></Link>
+              <a href="#multimediaservice"><span className='m-6 hover:text-slate-300/30'>Multimedia Services</span></a>
             </li>
           </ul>
           </span>
         </li>
         <li>
-          <Link to="/"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer'>Contact</span></Link>
+          <a href="#contact"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer'>Contact</span></a>
         </li>
       </ul>
       {/* toggler */}
