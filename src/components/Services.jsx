@@ -66,7 +66,7 @@ const Services = () => {
           <h2 className='text-[#252F46] font-bold text-2xl lg:text-3xl' id='immigrationService'>Immigration Services</h2>
         <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate"></div>
         </span>
-        <p className='text-xl py-8 leading-normal'>We offer advisory and processing services for those seeking travel to The UK and European countries.
+        <p className='text-xs lg:text-xl py-8 leading-normal'>We offer advisory and processing services for those seeking travel to The UK and European countries.
           Our immigration consultants thus have to adhere to very strict professional rules. These rules ensure that we are fit, competent and up to date with all the UK immigration rules and regulations.
           <span className='block py-3'>Our team of consultants has exceptional qualifications and many years of experience in Immigration law. 
           When we submit a visa application to the UK Home Office or any visa application/submission Center, it carries the highest possible chance of success.</span>
@@ -78,7 +78,7 @@ Our prices are very competitive. We make sure that you get expert advice at affo
         </p>
       </div>
       <div>
-        <h2 className='text-center font-bold text-2xl pb-1'>UK/European Visa Categories</h2>    
+        <h2 className='text-center font-bold lg:text-2xl text-lg pb-1'>UK/European Visa Categories</h2>    
         <table className=' table'>
           <tr>
             <th>Visa Type</th>
@@ -188,7 +188,7 @@ Our prices are very competitive. We make sure that you get expert advice at affo
     {media.map((mediaItem,i) => (
        <div key={i} className='w-full rounded-lg bg-black text-white my-8 mx-4' data-aos={`zoom-${i % 2 === 0 ?  `out` : `in` }`}>
         <img src={mediaItem.img} alt="" className='rounded-t-lg w-full h-60' />
-        <h2 className='font-bold text-xl px-6 py-4'>{mediaItem.heading}</h2>
+        <h2 className='font-bold lg:text-xl px-6 py-4'>{mediaItem.heading}</h2>
         <p className='px-6 pb-8'>{mediaItem.text}</p>
     </div>
     )
