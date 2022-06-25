@@ -36,7 +36,7 @@ const Navbar = () => {
           <span className='transition-all duration-300 flex flex-col items-center group'> 
             <div className='items-center flex group-hover:text-slate-300'>Services</div> 
             <div className="w-36 h-36 bg-transparent absolute lg:flex hidden"></div>
-          <ul className='group-hover:h-fit flex flex-col lg:top-16 bg-slate-600 lg:absolute gap-4 h-0 overflow-y-hidden group-hover:py-3  transition-all ease-in duration-1500 z-10'>
+          <ul className='group-hover:h-fit flex flex-col lg:top-16 bg-slate-600 lg:absolute gap-4 h-0 overflow-y-hidden group-hover:py-3  transition-all ease-in duration-300 z-10'>
             <li>
               <Link to="/"><span className='m-6 hover:text-slate-300/30'>Immigration Services</span></Link>
               </li>
