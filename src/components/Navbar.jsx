@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 
 
+
 const Navbar = () => {
   const [dropdown, setDropdown] = useState(false);
 
@@ -12,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div className='nav align-middle z-10'>
-          <Link to="/"><span className='flex flex-col font-black text-2xl leading-6 uppercase text-left  cursor-pointer ml-10'>Global <span>Watch</span><span className='text-xs'>Catalogue</span></span></Link>
+          <Link to="/"><span className='flex flex-col font-black text-2xl leading-6 uppercase text-left  cursor-pointer ml-10'>G <span c>W</span><span className=''>C</span></span></Link>
       <ul className={`${dropdown ? `h-0` : `h-full bg-slate-800 top-60 py-20`} lg:h-auto flex lg:flex-row flex-col my-auto align-middle overflow-y-hidden lg:overflow-y-visible transition-all ease-in duration-1000 gap-12 ml-auto mr-auto lg:relative lg:top-0 absolute w-full inset-0 lg:inset-auto items-center lg:py-0 lg:bg-transparent lg:ml-auto lg:float-right lg:w-fit`}>
         <li>
           <Link to="/"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer'>Home</span></Link>
@@ -24,7 +25,7 @@ const Navbar = () => {
           <span className='transition-all duration-300 flex flex-col items-center group'> 
             <div className='items-center flex group-hover:text-slate-300'>Services</div> 
             <div className="w-36 h-36 bg-transparent absolute lg:flex hidden"></div>
-          <ul className='group-hover:h-fit flex flex-col lg:top-16 bg-slate-600 lg:absolute gap-4 h-0 overflow-y-hidden group-hover:py-3  transition-all ease-in duration-1000 z-10'>
+          <ul className='group-hover:h-fit flex flex-col lg:top-16 bg-slate-600 lg:absolute gap-4 h-0 overflow-y-hidden group-hover:py-3  transition-all ease-in duration-1500 z-10'>
             <li>
               <Link to="/"><span className='m-6 hover:text-slate-300/30'>Immigration Services</span></Link>
               </li>
