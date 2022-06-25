@@ -70,7 +70,7 @@ const About = () => {
                 <div className="w-40 h-2 bg-black rounded-full lg:w-44" data-aos="fade-up"></div>
             </span>
             <div className='text-center lg:text-lg font-semibold text-base'>
-                <p>We are a team of hignly experienced professionals 
+                <p>We are a team of highly experienced professionals 
                 that makes the whole process seamless and achievable
                 Whether is study abroad or any of our other services,
                 we make sure you get value for your money.</p>

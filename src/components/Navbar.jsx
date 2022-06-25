@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
-import {AiFillCaretDown} from "react-icons/ai"
+
 
 const Navbar = () => {
   const [dropdown, setDropdown] = useState(false);
@@ -30,7 +30,7 @@ const Navbar = () => {
               </li>
               <li className='w-full h-2 bg-slate-300/30'></li>
               <li>
-              <Link to="/"><span className='m-6 hover:text-slate-300/30'>Immigration Services</span></Link>
+              <Link to="/"><span className='m-6 hover:text-slate-300/30'>Multimedia Services</span></Link>
             </li>
           </ul>
           </span>
