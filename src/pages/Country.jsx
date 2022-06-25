@@ -18,7 +18,8 @@ const Country = () => {
     postStudyVisa,
     englishProficiencyReq,
     visaRequirements,
-    applicationRequirements
+    applicationRequirements,
+    AverageTuition
     } = data;
     const {
         undergraduateStudy,
@@ -54,25 +55,26 @@ const Country = () => {
       <div className='flex flex-col p-12'>
           <h1>{title}</h1>
           <p>{content}</p>
-            <p><span>Location:</span>{Location}</p>
-            <p><span>Currency:</span>{Currency}</p>
-            <p><span>Language:</span>{Language}</p>
-            <p><span>English Proficiency:</span>{EnglishProficiency}</p>
-            <p><span>Work Permit:</span>{WorkPermit}</p>
-            <p><span>Working Hours:</span>{WorkingHours}</p>
-            <p><span>Average Income:</span>{averageIncome}</p>
-            <p><span>Cost of Living:</span>{costOfLiving}</p>
-            <p><span>Post Study Visa</span>{postStudyVisa}</p>
-            <p><span>Dependency Visa</span>{englishProficiencyReq}</p>
-            <p><span>Average Tuitions</span>{passport}</p>
-            <div>
-            <h1>Applicationn Requirements </h1>
-              <div>
-                  <span>Under Graduate Study:</span>
+            <div className="flex gap-6"><span className='text-lg font-semibold'>Location:</span><span>{Location}</span></div>
+            <div className="flex gap-6"><span className='text-lg font-semibold'>Currency:</span><span>{Currency}</span></div>
+            <div className="flex gap-6"><span className='text-lg font-semibold'>Language:</span><span>{Language}</span></div>
+            <div className="flex gap-6"><span className='text-lg font-semibold'>English Proficiency:</span><span>{EnglishProficiency}</span></div>
+            <div className="flex gap-6"><span className='text-lg font-semibold'>Work Permit:</span><span>{WorkPermit}</span></div>
+            <div className="flex gap-6"><span className='text-lg font-semibold'>Working Hours:</span><span>{WorkingHours}</span></div>
+            <div className="flex gap-6"><span className='text-lg font-semibold'>Average Income:</span><span>{averageIncome}</span></div>
+            <div className="flex gap-6"><span className='text-lg font-semibold'>Cost of Living:</span><span>{costOfLiving}</span></div>
+            <div className="flex"><span className='text-lg font-semibold w-full'>Post Study Visa:</span><span>{postStudyVisa}</span></div>
+            <div className="flex gap-6"><span className='text-lg font-semibold'>Dependency Visa:</span><span>{englishProficiencyReq}</span></div>
+          <div className="flex gap-6"><span className='text-lg font-semibold'>Average Tuitions:</span><span>{AverageTuition}</span></div>
+          <div className='flex w-full gap-10'>
+            <div className='font-semibold'>Applicationn Requirements:</div>
+              <div className='w-1/2'>
+                  <span className='font-semibold'>Under Graduate Study:</span>
+                  <p>{passport}</p>
                   <p>{photo}</p>
                   <p>{transcripts}</p>
                   <p>{proofOfEnglishProficiency}</p>
-                  <span>Post Graduate Study:</span>
+                  <span className='font-semibold'>Post Graduate Study:</span>
                   <p>{addition}</p>
                   <p>{postTranscript}</p>
                   <p>{postCv}</p>

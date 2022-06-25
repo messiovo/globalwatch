@@ -22,7 +22,8 @@ const country =
 
         costOfLiving: " €800/month to €900/month",
 
-        postStudyVisa: "Students from non-EU countries who wish to work in Germany after graduating can extend their residence permit for up to 18 months to find work relating to their studies.Dependant Visa	German Visa for Family Reunification entitles your non-EU/EEA family members to come and stay in Germany, while you’re completing a study course on the basis of a German Residence Permit.Average Tuition: 	For Public University its free with only administration charges of around €300 For Private Universities tuition fees could range between €26,000 to €40,000",
+        postStudyVisa: "Students from non-EU countries who wish to work in Germany after graduating can extend their residence permit for up to 18 months to find work relating to their studies.Dependant Visa	German Visa for Family Reunification entitles your non-EU/EEA family members to come and stay in Germany, while you’re completing a study course on the basis of a German Residence Permit.",
+        AverageTuition: "For Public University its free with only administration charges of around €300 For Private Universities tuition fees could range between €26, 000 to €40, 000",
 
         applicationRequirements: {
             undergraduateStudy: {
