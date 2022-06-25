@@ -52,9 +52,9 @@ const Country = () => {
         delivery
     } = visaRequirements;
   return (
-      <div className='flex flex-col p-12'>
-          <h1>{title}</h1>
-          <p>{content}</p>
+      <div className='flex flex-col p-24 gap-8'>
+          <h1 className='font-bold text-xl text-center'>{title}</h1>
+          <p className='font-semibold'>{content}</p>
             <div className="flex gap-6"><span className='text-lg font-semibold'>Location:</span><span>{Location}</span></div>
             <div className="flex gap-6"><span className='text-lg font-semibold'>Currency:</span><span>{Currency}</span></div>
             <div className="flex gap-6"><span className='text-lg font-semibold'>Language:</span><span>{Language}</span></div>
@@ -63,7 +63,7 @@ const Country = () => {
             <div className="flex gap-6"><span className='text-lg font-semibold'>Working Hours:</span><span>{WorkingHours}</span></div>
             <div className="flex gap-6"><span className='text-lg font-semibold'>Average Income:</span><span>{averageIncome}</span></div>
             <div className="flex gap-6"><span className='text-lg font-semibold'>Cost of Living:</span><span>{costOfLiving}</span></div>
-            <div className="flex"><span className='text-lg font-semibold w-full'>Post Study Visa:</span><span>{postStudyVisa}</span></div>
+            <div className="flex gap-6"><span className='text-lg font-semibold'>Post Study Visa:</span><span className='w-3/4'>{postStudyVisa}</span></div>
             <div className="flex gap-6"><span className='text-lg font-semibold'>Dependency Visa:</span><span>{englishProficiencyReq}</span></div>
           <div className="flex gap-6"><span className='text-lg font-semibold'>Average Tuitions:</span><span>{AverageTuition}</span></div>
           <div className='flex w-full gap-10'>
@@ -82,21 +82,21 @@ const Country = () => {
    
             </div>
             </div>
-            <div>
-                <h1>Visa Requirements:</h1>
-            <div>
-  {pic}
-        {id}
-        {cert}
-        {financeproof}
-        {health}
-        {letter}
-        {cv}
-        {travelIns}
-        {birthCert}
-        {langProf}
-        {motLetter}
-        {delivery}          
+          <div className='flex w-full gap-10'>
+              <h1 className='font-semibold'>Visa Requirements:</h1>
+              <div className='w-1/2'>
+        <p>{pic}</p>
+        <p>{id}</p>
+        <p>{cert}</p>
+        <p>{financeproof}</p>
+        <p>{health}</p>
+        <p>{letter}</p>
+        <p>{cv}</p>
+        <p>{travelIns}</p>
+        <p>{birthCert}</p>
+        <p>{langProf}</p>
+        <p>{motLetter}</p>
+        <p>{delivery}</p>
     </div>
     </div>
     </div>

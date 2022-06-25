@@ -275,8 +275,8 @@ const country =
                          policeForm:"Police Character Certificate."
                      }
      },
-      UK:{
-         title:"Study In The United Kingdow",
+      'The United Kingdom':{
+         title:"Study In The United Kingdom",
          content:".Hundreds of thousands of international students, study in the UK each year, giving the UK a consistently high ranking in popularity. With a diverse population and a reputation for prestigious schooling, the UK is a natural location for international students.The UK is a multicultural country and the second most popular destination for overseas students in the world. A degree from any British university will look great on a CV, and when looking for work in the future, no matter the industry and the location, having a qualification from the UK will be a great selling point.",
                      
          Location: "North-western coast of mainland Europe",
