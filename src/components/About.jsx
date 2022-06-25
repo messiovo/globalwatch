@@ -87,7 +87,7 @@ const About = () => {
         <h2 className=' font-bold pb-2 text-white'>{title}</h2>
         <p className='text-white '>{content}</p>
     </div>
-  )
+  )   
 }
     )}
         </div>
