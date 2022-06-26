@@ -29,11 +29,11 @@ const Contact = () => {
         <div className='lg:p-10'>
           <h3 className='text-center font-bold text-lg pb-6 lg:text-xl '>Abuja</h3>
           <span className='flex gap-4 pb-6 lg:text-lg'>
-            <BsFillHouseFill size={20}/>
+            <BsFillHouseFill/>
             <p>Sf 23 Anafara Plaza, First Avenue, Gwarinpa, F.C.T Abuja, Nigeria</p>
           </span>
           <span className='flex gap-4 pb-6 lg:text-lg'>
-            <BsFillTelephoneFill size={20}/>
+            <BsFillTelephoneFill/>
             <p>0913 543 6633, 0906 825 9997</p>
           </span>
         </div>

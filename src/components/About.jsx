@@ -96,7 +96,7 @@ const About = () => {
             <div>
                 <h2 className='text-center text-[#252F46] font-bold text-xl lg:text-2xl '>Our Countries</h2>
             </div>
-            <div className='py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-12'>
+            <div className='py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-12'id="country">
                   {Countries.map((country) => {
                       const { img, title } = country;
                       return (
