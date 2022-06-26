@@ -19,7 +19,7 @@ const Footer = () => {
           </p>
           </div>
         <div className='flex flex-col gap-8  lg:flex-row'>
-            <Link to='./'><span>Contact Us</span></Link>
+            <Link to='./'><span> <a href="#contact"> Contact Us</a></span></Link>
             <Link to='./'><span>Terms of Service</span></Link>
       </div>
     
