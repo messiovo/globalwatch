@@ -53,21 +53,21 @@ const Country = () => {
     } = visaRequirements;
   return (
       <div className='flex flex-col p-24 gap-8'>
-          <h1 className='font-bold text-xl text-center'>{title}</h1>
-          <p className='font-semibold text-center'>{content}</p>
-            <div className="flex gap-6"><span className='text-lg font-semibold'>Location:</span><span>{Location}</span></div>
-            <div className="flex gap-6"><span className='text-lg font-semibold'>Currency:</span><span>{Currency}</span></div>
-            <div className="flex gap-6"><span className='text-lg font-semibold'>Language:</span><span>{Language}</span></div>
-            <div className="flex gap-6"><span className='text-lg font-semibold'>English Proficiency:</span><span>{EnglishProficiency}</span></div>
-            <div className="flex gap-6"><span className='text-lg font-semibold'>Work Permit:</span><span>{WorkPermit}</span></div>
-            <div className="flex gap-6"><span className='text-lg font-semibold'>Working Hours:</span><span>{WorkingHours}</span></div>
-            <div className="flex gap-6"><span className='text-lg font-semibold'>Average Income:</span><span>{averageIncome}</span></div>
-            <div className="flex gap-6"><span className='text-lg font-semibold'>Cost of Living:</span><span>{costOfLiving}</span></div>
-            <div className="flex gap-6"><span className='text-lg font-semibold'>Post Study Visa:</span><span className='w-3/4'>{postStudyVisa}</span></div>
-            <div className="flex gap-6"><span className='text-lg font-semibold'>Dependency Visa:</span><span>{englishProficiencyReq}</span></div>
-          <div className="flex gap-6"><span className='text-lg font-semibold'>Average Tuitions:</span><span>{AverageTuition}</span></div>
-          <div className='flex w-full gap-10'>
-            <div className='font-semibold'>Applicationn Requirements:</div>
+          <h1 className='font-bold text-lg lg:text-xl text-center'>{title}</h1>
+          <p className='font-semibold text-center text-sm lg:text-lg'>{content}</p>
+            <div className="flex gap-6 text-sm lg:text-lg"><span className='text-lg font-semibold'>Location:</span><span>{Location}</span></div>
+            <div className="flex gap-6 text-sm lg:text-lg"><span className='text-lg font-semibold'>Currency:</span><span>{Currency}</span></div>
+            <div className="flex gap-6 text-sm lg:text-lg"><span className='text-lg font-semibold'>Language:</span><span>{Language}</span></div>
+            <div className="flex gap-6 text-sm lg:text-lg"><span className='text-lg font-semibold'>English Proficiency:</span><span>{EnglishProficiency}</span></div>
+            <div className="flex gap-6 text-sm lg:text-lg"><span className='text-lg font-semibold'>Work Permit:</span><span>{WorkPermit}</span></div>
+            <div className="flex gap-6 text-sm lg:text-lg"><span className='text-lg font-semibold'>Working Hours:</span><span>{WorkingHours}</span></div>
+            <div className="flex gap-6 text-sm lg:text-lg"><span className='text-lg font-semibold'>Average Income:</span><span>{averageIncome}</span></div>
+            <div className="flex gap-6 text-sm lg:text-lg"><span className='text-lg font-semibold'>Cost of Living:</span><span>{costOfLiving}</span></div>
+            <div className="flex gap-6 text-sm lg:text-lg"><span className='text-lg font-semibold'>Post Study Visa:</span><span className='w-3/4'>{postStudyVisa}</span></div>
+            <div className="flex gap-6 text-sm lg:text-lg"><span className='text-lg font-semibold'>Dependency Visa:</span><span>{englishProficiencyReq}</span></div>
+          <div className="flex gap-6 text-sm lg:text-lg"><span className='text-lg font-semibold'>Average Tuitions:</span><span>{AverageTuition}</span></div>
+          <div className='flex w-full gap-10 text-sm lg:text-lg'>
+            <div className='font-semibold'>Application Requirements:</div>
               <div className='w-1/2'>
                   <span className='font-semibold'>Under Graduate Study:</span>
                   <p>{passport}</p>
@@ -82,7 +82,7 @@ const Country = () => {
    
             </div>
             </div>
-          <div className='flex w-full gap-10'>
+          <div className='flex w-full gap-10 text-sm lg:text-lg'>
               <h1 className='font-semibold'>Visa Requirements:</h1>
               <div className='w-1/2'>
         <p>{pic}</p>
