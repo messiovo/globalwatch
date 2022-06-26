@@ -42,7 +42,7 @@ const media = [
     id:13,
     img: require("./img/seo.jpg"),
     heading: "Digital marketing & SEO",
-    text:"In the world of digital marketing,Search Engine Optimization is marketing strategy that plays an important role in helping you increase your reach to potential customers."
+    text:"In the world of digital marketing, Search Engine Optimization is marketing strategy that plays an important role in helping you increase your reach to potential customers."
   },
 {
     id:14,
@@ -56,14 +56,14 @@ const media = [
 const Services = () => {
 
   return (
-    <div className='p-10  rounded-lg m-10' id='services'>
+    <div className='p-10  rounded-lg lg:mx-10' id='services'>
        <span className="flex flex-col gap-2 items-center">
-                <h2 className="text-center font-bold text-2xl lg:text-4xl uppercase">services</h2>
+                <h2 className="text-center font-bold text-2xl lg:text-3xl uppercase">services</h2>
                 <div className="w-40 h-2 bg-black rounded-full lg:w-44" data-aos="fade-up"></div>
             </span>
-      <div className='px-14 py-8'>
+      <div className='py-8 lg:px-8'>
         <span className="flex flex-col gap-2 ">
-          <h2 className='text-[#252F46] font-bold text-2xl lg:text-3xl' id='immigrationService'>Immigration Services</h2>
+          <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl' id='immigrationService'>Immigration Services</h2>
         <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate"></div>
         </span>
         <p className='text-xs lg:text-xl py-8 leading-normal'>We offer advisory and processing services for those seeking travel to The UK and European countries.
@@ -79,7 +79,7 @@ Our prices are very competitive. We make sure that you get expert advice at affo
       </div>
       <div>
         <h2 className='text-center font-bold lg:text-2xl text-lg pb-1'>UK/European Visa Categories</h2>    
-        <table className=' table'>
+        <table className='text-xs lg:text-lg table'>
           <tr>
             <th>Visa Type</th>
             <th>Purpose</th>
@@ -178,18 +178,18 @@ Our prices are very competitive. We make sure that you get expert advice at affo
           </tr> 
         </table>
       </div>
-      <div className='px-14 pt-12'>
+      <div className='lg:px-14 pt-12'>
         <span className="flex flex-col gap-2 ">
-          <h2 className='text-[#252F46] font-bold text-2xl lg:text-3xl' id='multimediaservice'>Multimedia Training & Services</h2>
-          <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate"></div>
+          <h2 className='text-[#252F46] font-bold text-xl lg:text-2xl' id='multimediaservice'>Multimedia Training & Services</h2>
+          <div className="w-20 h-2 bg-[#C2956D] rounded-full div-animate mb-4"></div>
         </span>
     </div>
-    <div className='px-10 grid grid-cols-1 lg:grid-cols-4 gap-6'>
+    <div className=' grid grid-cols-1 lg:grid-cols-4 gap-6 lg:px-10'>
     {media.map((mediaItem,i) => (
-       <div key={i} className='w-full rounded-lg bg-black text-white my-8 mx-4' data-aos={`zoom-${i % 2 === 0 ?  `out` : `in` }`}>
+       <div key={i} className='w-full rounded-lg bg-black text-white my-4' data-aos={`zoom-${i % 2 === 0 ?  `out` : `in` }`}>
         <img src={mediaItem.img} alt="" className='rounded-t-lg w-full h-60' />
-        <h2 className='font-bold lg:text-xl px-6 py-4'>{mediaItem.heading}</h2>
-        <p className='px-6 pb-8'>{mediaItem.text}</p>
+        <h2 className='font-bold text-lg lg:text-xl px-6 py-4'>{mediaItem.heading}</h2>
+        <p className='px-6 pb-8 text-sm lg:text-lg'>{mediaItem.text}</p>
     </div>
     )
     )} 

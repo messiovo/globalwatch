@@ -66,7 +66,7 @@ const About = () => {
         <div className='w-full flex flex-col p-6 gap-8'>
 
             <span className="flex flex-col gap-2 items-center">
-                <h2 className="text-center font-bold text-2xl lg:text-4xl uppercase">About Us</h2>
+                <h2 className="text-center font-bold text-2xl lg:text-3xl uppercase">About Us</h2>
                 <div className="w-40 h-2 bg-black rounded-full lg:w-44" data-aos="fade-up"></div>
             </span>
             <div className='text-center lg:text-lg font-semibold text-base'>
@@ -77,12 +77,12 @@ const About = () => {
             </div>
         </div>
         <div className=' p-10 pb-20 rounded-lg'>
-            <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl mb-4'>Our Four Step Process</h2>
-        <div className='flex flex-col lg:flex-row w-full'>
+            <h2 className='text-center text-[#252F46] font-bold text-xl lg:text-2xl mb-4'>Our Four Step Process</h2>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
         { data.map(item => {
   const { no,title,content} = item;
   return (
-    <div key={item.no} className="w-full px-8 m-4 py-8 rounded-xl text-center  card1">
+    <div key={item.no} className="w-full px-8 my-4 py-8 rounded-xl text-center  card1">
         <span className='bg-[#e2e2e2] w-10 h-8 rounded-full block m-auto pt-1 mb-4 font-bold'>{no}</span>
         <h2 className=' font-bold pb-2 text-white'>{title}</h2>
         <p className='text-white '>{content}</p>
@@ -94,9 +94,9 @@ const About = () => {
         </div>
         <div className="w-full">
             <div>
-                <h2 className='text-center text-[#252F46] font-bold text-2xl lg:text-3xl '>Our Countries</h2>
+                <h2 className='text-center text-[#252F46] font-bold text-xl lg:text-2xl '>Our Countries</h2>
             </div>
-            <div className='p-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-12'>
+            <div className='py-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-12'>
                   {Countries.map((country) => {
                       const { img, title } = country;
                       return (
