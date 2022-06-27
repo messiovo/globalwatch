@@ -48,7 +48,7 @@ const Navbar = () => {
           </span>
         </li>
         <li>
-          <a href="#contact"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={() => setDropdown(false)}>Contact</span></a>
+          <a href="#contact"><span className='hover:text-slate-300 transition-all duration-300 cursor-pointer' onClick={()=>setDropdown(false)}>Contact</span></a>
         </li>
       </ul>
       {/* toggler */}
