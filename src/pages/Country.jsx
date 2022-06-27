@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import { useParams } from 'react-router-dom/index';
 import { country } from '../services';
 const Country = () => {
@@ -52,6 +52,9 @@ const Country = () => {
         motLetter,
         delivery
     } = visaRequirements;
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
   return (
       <div className='flex flex-col lg:p-24 p-6 gap-8'>
       {title && <h1 className='font-bold text-lg lg:text-xl text-center'>{title}</h1>}
