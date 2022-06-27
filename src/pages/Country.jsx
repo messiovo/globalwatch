@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import { useParams } from 'react-router-dom/index';
 import { country } from '../services';
+import { Navbar } from '../components';
 const Country = () => {
     const { countryId } = useParams();
     // eslint-disable-next-line no-unused-vars
@@ -57,6 +58,8 @@ const Country = () => {
     window.scrollTo(0, 0);
   }, [])
   return (
+    <>
+      <Navbar home/>
       <div className='flex flex-col lg:p-24 p-6 gap-8'>
       {title && <h1 className='font-bold text-lg lg:text-xl text-center'>{title}</h1>}
       {image && <span className="w-3/4 h-auto mx-auto">{image}</span>}
@@ -105,7 +108,8 @@ const Country = () => {
         {delivery && <p>{delivery}</p>}
     </div>
     </div>
-    </div>
+      </div>
+      </>
   )
 }
 
