@@ -16,13 +16,13 @@ function App() {
         Aos.refresh();
   },[])
   return (
-      <div>
-      <Routes>
+      <>
+  <Routes>
     <Route path='/' element={<Homepage />} />
     <Route path='/country/:countryId' element={<Country />} />
   </Routes>
       <Footer/>
-      </div>
+      </>
   );
 }
 
