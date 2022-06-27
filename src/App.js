@@ -10,7 +10,8 @@ function App() {
         Aos.init({
           duration: 1500
         });
-        Aos.refresh();
+    Aos.refresh();
+    window.scrollTo(0, 0);
   },[])
   return (
       <div>
