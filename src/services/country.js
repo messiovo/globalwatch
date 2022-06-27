@@ -7,6 +7,8 @@ const country =
         content: "Germany is highly popular among international students. This is mainly because of the country's many excellent universities offering numerous Bachelor’s and Master’s programmes taught in English, its dynamic student life and good funding options. Germany is home to some of the highest-ranked universities in the world, with almost 400,000 international students in enrolment.",
                         
         Location: "	Central Europe",
+        
+        Image: <img src="../images/germanybg.jpeg" alt="Germany"/>,
 
         Currency: "Euro (€) = N438.40",
 
@@ -62,6 +64,7 @@ const country =
                         
         Location: "	Cyprus is an island located in the eastern Mediterranean Sea, south of turkey and south east of main land Greece",
 
+        Image: <img src="../images/cyprusbg.jpeg" alt="Cyprus" className="w-max"/>,
 
         Language: "Greek and Turkish",
 
@@ -109,7 +112,9 @@ const country =
     Poland: {
         title: "Study In Poland",
         content: "Poland is one of the most affordable European countries for studies, a place where you can combine high-quality universities, very affordable tuition fees and a vibrant student and cultural life.Polish cities like Warsaw and Krakow are voted among the top student-friendly cities, offering a lively atmosphere, a great study environment and low cost of living.Poland is a central European country with quite a lot of neighbouring countries such as Lithuania, the Kaliningrad region, Belarus, Ukraine, Slovakia, Czech Republic and Germany, this grants the opportunity for to work and travel in multiple European destinations.",
-                        
+        
+        Image: <img src="../images/polandbg.jpeg" alt="Poland" />,
+
         Location: "	Central Europe",
 
         Currency: "Zloty (PLN)",
@@ -163,6 +168,8 @@ const country =
         title: "Study In Ireland",
         content: "Ireland is one of the most popular study abroad destinations in Europe. Its universities offer first-rate education in a traditional, yet modern setting. Thousands of study programs at over two dozen schools attract international students from around the world.Ireland is such a good place to study abroad for a wide number of reasons, including the standard of teaching and education, the career opportunities, and the enjoyable lifestyle..",
                         
+        Image: <img src="../images/irelandbg.jpeg" alt="Ireland" />,
+
         Location: "West of Great Britain",
 
         Currency: "Euro (€) = N438.40",
@@ -221,6 +228,8 @@ const country =
          content: "Studying in Russia is a popular choice for international students with a wide variety of interests, be they literature, art, history, or Russian language studies. International students in Russia will receive a high quality education in a culturally diverse environment.Russia possesses one of the best mass-education systems in the world, and has a long-standing tradition of high-quality education for all citizens. Russia’s education system produces a 98% literacy rate, exceeding that of most Western European countries.",
                      
          Location: "Eastern Europe",
+
+         Image: <img src="../images/russiabg.jpeg" alt="Russia" />,
 
          Currency:	"Ruble (RUB) = N7.73",
 
