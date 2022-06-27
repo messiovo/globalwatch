@@ -54,27 +54,27 @@ const Country = () => {
   return (
       <div className='flex flex-col lg:p-24 p-6 gap-8'>
           {title && <h1 className='font-bold text-lg lg:text-xl text-center'>{title}</h1>}
-          {content && <p className='font-semibold text-center text-sm lg:text-lg w-full'>{content}</p>}
-            {Location && <div className="flex gap-6 text-xs lg:text-lg"><span className='text-sm font-semibold'>Location:</span><span>{Location}</span></div>}
-            {Currency && <div className="flex gap-6 text-xs lg:text-lg"><span className='text-sm font-semibold'>Currency:</span><span>{Currency}</span></div>}
-            {Language && <div className="flex gap-6 text-xs lg:text-lg"><span className='text-sm font-semibold'>Language:</span><span>{Language}</span></div>}
-            {EnglishProficiency  && <div className="flex gap-6 text-xs lg:text-lg"><span className='text-sm font-semibold'>English Proficiency:</span><span>{EnglishProficiency}</span></div>}
-            {WorkPermit  && <div className="flex gap-6 text-xs lg:text-lg"><span className='text-sm font-semibold'>Work Permit:</span><span>{WorkPermit}</span></div>}
-            {WorkingHours  && <div className="flex gap-6 text-xs lg:text-lg"><span className='text-sm font-semibold'>Working Hours:</span><span>{WorkingHours}</span></div>}
-            {averageIncome  && <div className="flex gap-6 text-xs lg:text-lg"><span className='text-sm font-semibold'>Average Income:</span><span>{averageIncome}</span></div>}
-            {costOfLiving  && <div className="flex gap-6 text-xs lg:text-lg"><span className='text-sm font-semibold'>Cost of Living:</span><span>{costOfLiving}</span></div>}
-            {postStudyVisa  && <div className="flex gap-6 text-xs lg:text-lg"><span className='text-sm font-semibold'>Post Study Visa:</span><span className='w-3/4'>{postStudyVisa}</span></div>}
-            {englishProficiencyReq && <div className="flex gap-6 text-xs lg:text-lg"><span className='text-sm font-semibold'>Dependency Visa:</span><span>{englishProficiencyReq}</span></div>}
-            {AverageTuition && <div className="flex gap-6 text-xs lg:text-lg"><span className='text-sm font-semibold'>Average Tuitions:</span><span>{AverageTuition}</span></div>}
-          <div className='flex w-full gap-10 text-sm lg:text-lg'>
-            <div className='font-semibold'>Application Requirements:</div>
-              <div className='w-1/2'>
-                  <span className='font-semibold'>Under Graduate Study:</span>
+          {content && <p className='font-semibold text-center text-sm lg:text-base w-full'>{content}</p>}
+            {Location && <div className="flex gap-6 text-xs lg:text-base"><span className='text-sm lg:text-lg font-semibold'>Location:</span><span>{Location}</span></div>}
+            {Currency && <div className="flex gap-6 text-xs lg:text-base"><span className='text-sm lg:text-lg font-semibold'>Currency:</span><span>{Currency}</span></div>}
+            {Language && <div className="flex gap-6 text-xs lg:text-lg"><span className='text-sm lg:text-lg font-semibold'>Language:</span><span>{Language}</span></div>}
+            {EnglishProficiency  && <div className="flex gap-6 text-xs lg:text-base"><span className='text-sm lg:text-lg font-semibold'>English Proficiency:</span><span>{EnglishProficiency}</span></div>}
+            {WorkPermit  && <div className="flex gap-6 text-xs lg:text-base"><span className='text-sm lg:text-lg font-semibold'>Work Permit:</span><span>{WorkPermit}</span></div>}
+            {WorkingHours  && <div className="flex gap-6 text-xs lg:text-base"><span className='text-sm lg:text-lg font-semibold'>Working Hours:</span><span>{WorkingHours}</span></div>}
+            {averageIncome  && <div className="flex gap-6 text-xs lg:text-base"><span className='text-sm lg:text-lg font-semibold'>Average Income:</span><span>{averageIncome}</span></div>}
+            {costOfLiving  && <div className="flex gap-6 text-xs lg:text-base"><span className='text-sm lg:text-lg font-semibold'>Cost of Living:</span><span>{costOfLiving}</span></div>}
+            {postStudyVisa  && <div className="flex gap-6 text-xs lg:text-base"><span className='text-sm lg:text-lg font-semibold'>Post Study Visa:</span><span className='w-3/4'>{postStudyVisa}</span></div>}
+            {englishProficiencyReq && <div className="flex gap-6 text-xs lg:text-base"><span className='text-sm lg:text-lg font-semibold'>Dependency Visa:</span><span>{englishProficiencyReq}</span></div>}
+            {AverageTuition && <div className="flex gap-6 text-xs lg:text-base"><span className='text-sm lg:text-lg font-semibold'>Average Tuitions:</span><span>{AverageTuition}</span></div>}
+          <div className='flex w-full gap-10 text-xs lg:text-base'>
+        <div className='text-sm lg:text-lg font-semibold'>Application Requirements:</div>
+        <div className='w-1/2 text-xs lg:text-base'>
+          <span className='text-sm lg:text-lg font-semibold'>Under Graduate Study:</span>
               {passport  && <p>{passport}</p>}
               {photo  && <p>{photo}</p>}
               {transcripts  && <p>{transcripts}</p>}
               {proofOfEnglishProficiency  && <p>{proofOfEnglishProficiency}</p>}
-                  <span className='font-semibold'>Post Graduate Study:</span>
+          <span className='text-sm lg:text-lg font-semibold'>Post Graduate Study:</span>
               {addition  && <p>{addition}</p>}
               {postTranscript && <p>{postTranscript}</p>}
               {postCv && <p>{postCv}</p>}
@@ -83,8 +83,8 @@ const Country = () => {
             </div>
             </div>
           <div className='flex w-full gap-10 text-sm lg:text-lg'>
-              <h1 className='font-semibold'>Visa Requirements:</h1>
-              <div className='w-1/2'>
+        <h1 className='text-sm lg:text-lg font-semibold'>Visa Requirements:</h1>
+        <div className='w-1/2 text-xs lg:text-base'>
         {pic  && <p>{pic}</p>}
         {id  && <p>{id}</p>}
         {cert && <p>{cert}</p>}
