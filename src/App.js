@@ -6,12 +6,14 @@ import { Homepage, Country } from './pages'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
   useEffect(()=>{
         Aos.init({
           duration: 1500
         });
-    Aos.refresh();
-    window.scrollTo(0, 0);
+        Aos.refresh();
   },[])
   return (
       <div>
