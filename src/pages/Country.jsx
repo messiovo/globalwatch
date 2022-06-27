@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom/index';
 import { country } from '../services';
 const Country = () => {
     const { countryId } = useParams();
+    // eslint-disable-next-line no-unused-vars
     const [data, setData] = useState(country[countryId])
     const {
     title,
